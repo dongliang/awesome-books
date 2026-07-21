@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>人类学科知识树｜学科—核心主题—权威教材</title>
+  <title>人类知识树｜显性学科、隐性知识与实践能力</title>
   <style>
     :root{--bg:#f4f6f1;--paper:#fffef9;--ink:#18211d;--muted:#667069;--line:#dfe5dd;--green:#1e6551;--green2:#dcefe7;--gold:#b6742d;--shadow:0 18px 50px rgba(31,48,39,.08)}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 8% 0,#e9f1df 0,transparent 27%),var(--bg);color:var(--ink);font:15px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
@@ -12,33 +12,36 @@
     .toolbar{position:sticky;top:10px;z-index:20;display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0;padding:12px;border:1px solid var(--line);border-radius:18px;background:rgba(255,254,249,.9);backdrop-filter:blur(12px);box-shadow:0 8px 30px rgba(35,48,40,.07)}.search{flex:1;min-width:260px;display:flex;align-items:center;gap:9px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:white}.search input{width:100%;border:0;outline:0;background:transparent}.btn{border:1px solid var(--line);background:white;color:var(--ink);padding:9px 13px;border-radius:11px;cursor:pointer}.btn:hover{border-color:#9bb7aa}.btn.primary{background:var(--green);color:white;border-color:var(--green)}
     .stats{display:flex;gap:18px;margin-left:auto;padding:0 6px;color:var(--muted);font-size:12px}.stats b{display:block;color:var(--ink);font-size:18px;line-height:1.1}
     .layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:20px}.side{position:sticky;top:90px;align-self:start;max-height:calc(100vh - 110px);overflow:auto;padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--paper)}.side h2{margin:0 0 8px;font-size:12px;letter-spacing:.12em;color:var(--muted)}.side a{display:block;padding:7px 9px;border-radius:9px;color:#34423b;text-decoration:none;font-size:13px}.side a:hover{background:#eef4ef}.note{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
-    .content{min-width:0}.intro{padding:20px 24px;margin-bottom:16px;border:1px solid var(--line);border-radius:18px;background:var(--paper)}.intro h2{margin:0 0 6px;font-size:18px}.intro p{margin:5px 0;color:var(--muted)}.legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.chip{padding:3px 8px;border-radius:999px;background:#eef3ed;color:#516158;font-size:12px}.chip.warn{background:#fff0dc;color:#87531d}
+    .content{min-width:0}.intro{padding:20px 24px;margin-bottom:16px;border:1px solid var(--line);border-radius:18px;background:var(--paper)}.intro h2{margin:0 0 6px;font-size:18px}.intro p{margin:5px 0;color:var(--muted)}.legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.chip{padding:3px 8px;border-radius:999px;background:#eef3ed;color:#516158;font-size:12px}.chip.warn{background:#fff0dc;color:#87531d}.source-status{font-size:12px}.data-warnings{margin-top:10px;padding:9px 11px;border-radius:10px;background:#fff3df;color:#80501e;font-size:12px}.tag-panel{margin-top:14px;padding-top:13px;border-top:1px solid var(--line)}.tag-panel h3{margin:0 0 8px;font-size:13px}.tag-filters{display:flex;gap:7px;flex-wrap:wrap}.tag-filter{border:1px solid color-mix(in srgb,var(--tag-ink,#516158) 28%,#fff);background:var(--tag-bg,#eef3ed);color:var(--tag-ink,#516158);padding:5px 9px;border-radius:999px;cursor:pointer;font-size:12px}.tag-filter:hover,.tag-filter[aria-pressed="true"]{outline:2px solid color-mix(in srgb,var(--tag-ink,#516158) 45%,transparent);outline-offset:1px}.tag-filter[aria-pressed="true"]{font-weight:800}
     .branch{--accent:#28735e;margin:0 0 14px;border:1px solid var(--line);border-radius:18px;background:var(--paper);overflow:hidden;box-shadow:0 5px 18px rgba(38,50,42,.035)}.branch>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:44px 1fr auto;gap:13px;align-items:center;padding:18px 22px}.branch>summary::-webkit-details-marker,details.node>summary::-webkit-details-marker{display:none}.branch>summary:hover{background:#fbfcf8}.num{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;color:white;background:var(--accent);font-weight:850}.branch-title{font-family:ui-serif,"Noto Serif SC","Songti SC",serif;font-size:21px;font-weight:800}.branch-meta{color:var(--muted);font-size:12px}.chev{color:var(--accent);font-size:20px;transition:.2s}.branch[open]>summary .chev,details.node[open]>summary .chev{transform:rotate(90deg)}.branch-body{padding:2px 22px 20px 44px;border-top:1px solid #edf0eb}
     details.node{margin-top:9px;border-left:1px solid #d6ded8}details.node>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:7px 10px;margin-left:-1px;border-left:3px solid transparent;border-radius:0 9px 9px 0;font-weight:700}details.node>summary:hover{background:#f3f6f1;border-left-color:var(--accent)}details.node .children{margin-left:17px}.node-count{margin-left:auto;color:#89928d;font-size:11px;font-weight:500}
-    .leaf{margin:8px 0 8px 18px;padding:10px 12px;border-left:3px solid color-mix(in srgb,var(--accent) 54%,#fff);border-radius:0 11px 11px 0;background:#fafbf7}.leaf-head{display:flex;gap:8px;align-items:baseline}.leaf-name{font-weight:750}.leaf-note{color:var(--muted);font-size:12px}.books{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}.book{display:inline-flex;align-items:center;gap:5px;padding:4px 8px;border:1px solid #dfe7df;border-radius:8px;background:white;color:#3d4942;font-size:12px}.book:before{content:"书";font-size:10px;font-weight:800;color:var(--accent);background:#e7f0eb;border-radius:4px;padding:0 3px}.empty{padding:50px;text-align:center;color:var(--muted)}.load-state{padding:48px 24px;border:1px dashed var(--line);border-radius:18px;background:var(--paper);text-align:center;color:var(--muted)}.load-state.error{border-color:#dfb6aa;background:#fff8f5;color:#7e3f32}.load-state code{padding:2px 5px;border-radius:5px;background:rgba(0,0,0,.055);color:var(--ink)}mark{background:#ffe6a6;color:inherit;border-radius:2px;padding:0 1px}.footer{margin:24px 0 10px;padding:23px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}.footer h2{color:var(--ink);font-size:16px}.footer li{margin:5px 0}
+    .leaf{margin:8px 0 8px 18px;padding:10px 12px;border-left:3px solid color-mix(in srgb,var(--accent) 54%,#fff);border-radius:0 11px 11px 0;background:#fafbf7}.leaf-head{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.leaf-name{font-weight:750}.leaf-note,.book-note{color:var(--muted);font-size:12px}.books{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}.book{display:inline-flex;align-items:center;gap:5px;flex-wrap:wrap;padding:4px 8px;border:1px solid #dfe7df;border-radius:8px;background:white;color:#3d4942;font-size:12px}.book:before{content:"书";font-size:10px;font-weight:800;color:var(--accent);background:#e7f0eb;border-radius:4px;padding:0 3px}.ktags{display:inline-flex;gap:4px;flex-wrap:wrap;vertical-align:middle}.ktag{display:inline-flex;padding:1px 6px;border-radius:999px;background:var(--tag-bg,#eef3ed);color:var(--tag-ink,#516158);font-size:10px;font-weight:700;line-height:1.55;white-space:nowrap}.tone-green{--tag-bg:#e3f1e9;--tag-ink:#276249}.tone-amber{--tag-bg:#fff0d8;--tag-ink:#86531c}.tone-red{--tag-bg:#fbe4e1;--tag-ink:#8c3e35}.tone-purple{--tag-bg:#eee7f7;--tag-ink:#67478d}.tone-blue{--tag-bg:#e2eef7;--tag-ink:#35637f}.tone-slate{--tag-bg:#e9eeef;--tag-ink:#4d6065}.tone-pink{--tag-bg:#f8e6ee;--tag-ink:#8a4562}.tone-olive{--tag-bg:#edf0dc;--tag-ink:#5e6828}.structure-conflict{color:#974329;font-size:10px;font-weight:800}.book.filter-match{box-shadow:0 0 0 2px #e2b04f}.empty{padding:50px;text-align:center;color:var(--muted)}.load-state{padding:48px 24px;border:1px dashed var(--line);border-radius:18px;background:var(--paper);text-align:center;color:var(--muted)}.load-state.error{border-color:#dfb6aa;background:#fff8f5;color:#7e3f32}.load-state code{padding:2px 5px;border-radius:5px;background:rgba(0,0,0,.055);color:var(--ink)}mark{background:#ffe6a6;color:inherit;border-radius:2px;padding:0 1px}.footer{margin:24px 0 10px;padding:23px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}.footer h2{color:var(--ink);font-size:16px}.footer li{margin:5px 0}
     @media(max-width:900px){.shell{padding:14px}.hero{grid-template-columns:1fr;padding:25px}.version{text-align:left}.layout{grid-template-columns:1fr}.side{position:relative;top:auto;max-height:none}.stats{order:5;width:100%;margin:0}.branch-body{padding-left:15px}.branch>summary{padding:15px}.side nav{columns:2}}
-    @media print{.toolbar,.side{display:none}.layout{display:block}.branch{break-inside:avoid;box-shadow:none}.branch,.branch details{display:block}.hero{box-shadow:none}.book{border-color:#bbb}}
+    @media print{.toolbar,.side,.tag-panel,.data-warnings{display:none}.layout{display:block}.branch{break-inside:avoid;box-shadow:none}.branch,.branch details{display:block}.hero{box-shadow:none}.book{border-color:#bbb}}
   </style>
 </head>
 <body>
 <main class="shell">
   <header class="hero">
-    <div><div class="eyebrow">A MAP OF HUMAN DISCIPLINES</div><h1>人类学科知识树</h1><p>从学科门类向下展开到核心分支与代表性教材。它是一张“可导航的知识地图”，不是宣称穷尽知识的终极分类。</p></div>
-    <div class="version"><b>Edition 1.0</b>整理日期：<span id="editionDate">2026-07-17</span><br>国际教材中文导航版</div>
+    <div><div class="eyebrow">A MAP OF HUMAN KNOWLEDGE</div><h1>人类知识树</h1><p>同时整理大学中的显性学科，以及常被课程体系遗漏的隐性知识、实践能力与人生经验。它是一张“可导航的知识地图”，不是宣称穷尽知识的终极分类。</p></div>
+    <div class="version"><b>Edition 2.0</b>整理日期：<span id="editionDate">—</span><br>显性知识与实践能力导航版</div>
   </header>
   <div class="toolbar">
-    <label class="search">⌕ <input id="q" type="search" placeholder="搜索学科、主题、作者或教材，例如：量子力学 / Rudin / 建筑"></label>
-    <button class="btn primary" id="expand">全部展开</button><button class="btn" id="collapse">全部收起</button><button class="btn" id="clear">清除搜索</button>
-    <div class="stats"><span><b id="branchCount">0</b>大门类</span><span><b id="leafCount">0</b>核心主题</span><span><b id="bookCount">0</b>教材条目</span></div>
+    <label class="search">⌕ <input id="q" type="search" placeholder="搜索门类、主题、作者、资料或标签，例如：防御性 / 谈判 / Rudin"></label>
+    <button class="btn primary" id="expand">全部展开</button><button class="btn" id="collapse">全部收起</button><button class="btn" id="clear">清除筛选</button>
+    <div class="stats"><span><b id="branchCount">0</b>大门类</span><span><b id="leafCount">0</b>核心主题</span><span><b id="bookCount">0</b>资料条目</span></div>
   </div>
   <div class="layout">
-    <aside class="side"><h2>学科导航</h2><nav id="nav"></nav><div class="note">层级：门类 → 学科群 → 分支/课程 → 教材。点击节点展开；搜索会保留完整祖先路径。</div></aside>
+    <aside class="side"><h2>知识导航</h2><nav id="nav"></nav><div class="note">层级：门类 → 知识群 → 分支/主题 → 资料。点击节点展开；搜索和标签筛选会保留完整祖先路径。</div></aside>
     <section class="content">
       <div class="intro">
         <h2>如何读这张图</h2>
-        <p><b>分类骨架</b>综合 UNESCO ISCED-F、OECD FORD 与中国《研究生教育学科专业目录（2022年）》，再按知识依赖关系重排。它不是招生专业清单，也不是图书排行榜。</p>
-        <p><b>教材口径</b>优先选择长期被大学课程采用、在本领域被反复引用或由权威学术组织/出版社持续修订的教材。为便于跨国家比较，第一版以英文国际教材为主；标为“标准/手册”的条目可能比普通教材更适合作为案头参考。</p>
-        <div class="legend"><span class="chip">一个主题通常列 1–2 本</span><span class="chip">不锁定版次，优先采用最新可靠版</span><span class="chip warn">医学、法律、规范类知识须核对地区与年代</span></div>
+        <p><b>分类骨架</b>显性学科综合 UNESCO ISCED-F、OECD FORD 与中国《研究生教育学科专业目录（2022年）》；实践部分按现实任务、风险与人生阶段组织。它不是招生专业清单，也不是图书排行榜。</p>
+        <p><b>资料口径</b>显性学科优先选择长期被大学课程采用的教材；隐性与实践知识也收录可靠的专业手册和严肃通俗著作。标签描述学习方式、风险与制度环境，不代表书籍质量评级。</p>
+        <p class="source-status" id="sourceStatus">正在检查数据源…</p>
+        <div class="data-warnings" id="dataWarnings" hidden></div>
+        <div class="legend"><span class="chip">一个主题通常列 1–2 本</span><span class="chip">不锁定版次，优先采用最新可靠版</span><span class="chip warn">医学、法律、财务与安全知识不能替代专业意见</span></div>
+        <div class="tag-panel" id="tagPanel" hidden><h3>风险与学习标签（可多选筛选）</h3><div class="tag-filters" id="tagFilters"></div></div>
       </div>
       <div id="tree"><div class="load-state">正在加载知识树数据…</div></div>
       <div class="footer">
@@ -47,58 +50,190 @@
           <li>UNESCO：<a href="https://www.uis.unesco.org/sites/default/files/medias/fichiers/2025/04/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf">ISCED-F 2013 详细领域说明</a>——提供教育与训练领域的国际分类骨架。</li>
           <li>OECD：<a href="https://www.oecd.org/en/publications/frascati-manual-2015_9789264239012-en.html">Frascati Manual 2015</a>——提供科研活动的六大 FORD 领域框架。</li>
           <li>中国教育部：<a href="https://www.moe.gov.cn/srcsite/A22/moe_833/202209/W020220914572994461110.pdf">研究生教育学科专业目录（2022年）</a>——用于校正中文学科名称与中国语境。</li>
-          <li>任何“权威教材”都会随时代、学校与学术传统改变；法律、临床医学、工程规范尤其不能仅依赖教材处理现实问题。</li>
-          <li>本图以“可学习的稳定知识骨架”为目标，尚未逐一展开每个国家的区域研究、每种语言文学、每个临床亚专科、每项工种与新兴交叉方向。</li>
+          <li>任何“权威资料”都会随时代、地区与学术传统改变；法律、临床医学、财务、安全和工程规范尤其不能仅依赖书籍处理现实问题。</li>
+          <li>实践知识常依赖演练、反馈、师徒传递和现场判断；“需要实践”标签明确提醒书本只是起点。</li>
+          <li>本图以“可学习的稳定知识骨架”为目标，尚未穷尽所有区域知识、工种、人生经验与新兴方向。</li>
         </ol>
       </div>
     </section>
   </div>
 </main>
-<script src="./knowledge-tree-data.js"></script>
+<script>window.KNOWLEDGE_TREE_LOAD_STATUS={base:'pending',practical:'pending'};</script>
+<script src="./knowledge-tree-data.js" onload="window.KNOWLEDGE_TREE_LOAD_STATUS.base='loaded'" onerror="window.KNOWLEDGE_TREE_LOAD_STATUS.base='missing'"></script>
+<script src="./knowledge-tree-practical-data.js" onload="window.KNOWLEDGE_TREE_LOAD_STATUS.practical='loaded'" onerror="window.KNOWLEDGE_TREE_LOAD_STATUS.practical='missing'"></script>
 <script>
 let DATA=[];
-
+let TAG_DEFINITIONS=new Map();
+const ACTIVE_TAGS=new Set();
+const WARNINGS=[];
 const colors=['#256c57','#5a5fa9','#6b4f9c','#9a592e','#38708b','#256a78','#8b4e3c','#a24758','#557a32','#365b8b','#7b5d28','#6e537f','#9b4b43','#3e6c5d','#65752b'];
+const tones=new Set(['green','amber','red','purple','blue','slate','pink','olive']);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function counts(x){if(x.books)return{l:1,b:x.books.length};return x.children.reduce((a,v)=>{const q=counts(v);a.l+=q.l;a.b+=q.b;return a},{l:0,b:0})}
-function renderNode(x){
- if(x.books)return `<div class="leaf" data-search="${esc((x.name+' '+(x.note||'')+' '+x.books.join(' ')).toLowerCase())}"><div class="leaf-head"><span class="leaf-name">${esc(x.name)}</span>${x.note?`<span class="leaf-note">${esc(x.note)}</span>`:''}</div><div class="books">${x.books.map(v=>`<span class="book">${esc(v)}</span>`).join('')}</div></div>`;
- const q=counts(x);return `<details class="node"><summary><span class="chev">›</span><span>${esc(x.name)}</span><span class="node-count">${q.l} 主题 · ${q.b} 教材</span></summary><div class="children">${x.children.map(renderNode).join('')}</div></details>`
+const uniq=values=>[...new Set((values||[]).filter(Boolean))];
+const kind=node=>Array.isArray(node.children)?'group':'leaf';
+function addWarning(message){if(!WARNINGS.includes(message))WARNINGS.push(message);console.warn('[知识树]',message)}
+function normalizeTags(value,context){
+ if(value===undefined)return[];
+ if(!Array.isArray(value)){addWarning(`${context} 的 tags 不是数组，已忽略`);return[]}
+ return uniq(value.filter(v=>typeof v==='string').map(v=>v.trim()).filter(Boolean));
+}
+function normalizeBook(value,context){
+ if(typeof value==='string')value={title:value};
+ if(!value||typeof value!=='object'||typeof value.title!=='string'||!value.title.trim()){
+  addWarning(`${context} 包含无效或空白书名，已忽略`);return null;
+ }
+ return{title:value.title.trim(),note:typeof value.note==='string'?value.note.trim():'',tags:normalizeTags(value.tags,`${context} / ${value.title}`)};
+}
+function normalizeNode(value,context){
+ if(!value||typeof value!=='object'||typeof value.name!=='string'||!value.name.trim()){
+  addWarning(`${context} 包含无效节点，已忽略`);return null;
+ }
+ const name=value.name.trim(),hasChildren=Array.isArray(value.children),hasBooks=Array.isArray(value.books);
+ if(hasChildren===hasBooks){addWarning(`${context} / ${name} 必须且只能包含 children 或 books，已忽略`);return null}
+ const node={name,note:typeof value.note==='string'?value.note.trim():'',tags:normalizeTags(value.tags,`${context} / ${name}`)};
+ if(hasChildren)node.children=value.children.map(v=>normalizeNode(v,`${context} / ${name}`)).filter(Boolean);
+ else node.books=value.books.map(v=>normalizeBook(v,`${context} / ${name}`)).filter(Boolean);
+ return node;
+}
+function normalizeDataset(payload,label){
+ if(!payload||typeof payload!=='object'||!Array.isArray(payload.branches)){
+  addWarning(`${label}格式无效：缺少 branches 数组`);return null;
+ }
+ const definitions=Array.isArray(payload.tagDefinitions)?payload.tagDefinitions:[];
+ return{
+  label,
+  updatedAt:typeof payload.updatedAt==='string'?payload.updatedAt:'',
+  tagDefinitions:definitions.filter(def=>{
+   const valid=def&&typeof def.id==='string'&&def.id.trim()&&typeof def.label==='string'&&def.label.trim();
+   if(!valid)addWarning(`${label}包含无效标签定义，已忽略`);return valid;
+  }).map(def=>({id:def.id.trim(),label:def.label.trim(),description:typeof def.description==='string'?def.description.trim():'',tone:tones.has(def.tone)?def.tone:'slate'})),
+  branches:payload.branches.map(v=>normalizeNode(v,label)).filter(Boolean)
+ };
+}
+function cloneBook(book){return{title:book.title,note:book.note,tags:[...book.tags]}}
+function cloneNode(node){
+ const copy={name:node.name,note:node.note,tags:[...node.tags]};
+ if(node._structureConflict)copy._structureConflict=true;
+ if(kind(node)==='group')copy.children=node.children.map(cloneNode);else copy.books=node.books.map(cloneBook);
+ return copy;
+}
+function mergeText(first,second){
+ if(!first)return second||'';if(!second||first===second)return first;
+ return first.split(' · ').includes(second)?first:`${first} · ${second}`;
+}
+function mergeNode(target,incoming,path){
+ target.tags=uniq([...target.tags,...incoming.tags]);target.note=mergeText(target.note,incoming.note);
+ if(kind(target)==='group')mergeSiblings(target.children,incoming.children,`${path} / ${target.name}`);
+ else incoming.books.forEach(book=>{
+  const match=target.books.find(existing=>existing.title.trim()===book.title.trim());
+  if(match){match.tags=uniq([...match.tags,...book.tags]);match.note=mergeText(match.note,book.note)}else target.books.push(cloneBook(book));
+ });
+}
+function mergeSiblings(target,incoming,path){
+ incoming.forEach(node=>{
+  const sameKind=target.find(existing=>existing.name===node.name&&kind(existing)===kind(node));
+  if(sameKind){mergeNode(sameKind,node,path);return}
+  const conflicts=target.filter(existing=>existing.name===node.name);
+  const copy=cloneNode(node);
+  if(conflicts.length){conflicts.forEach(existing=>existing._structureConflict=true);copy._structureConflict=true;addWarning(`${path} / ${node.name} 同时被定义为分组和科目，已保留两种结构`)}
+  target.push(copy);
+ });
+}
+function collectTagIds(node,result){
+ node.tags.forEach(id=>result.add(id));
+ if(kind(node)==='group')node.children.forEach(child=>collectTagIds(child,result));
+ else node.books.forEach(book=>book.tags.forEach(id=>result.add(id)));
+}
+function tagDefinition(id){return TAG_DEFINITIONS.get(id)||{id,label:id,description:'数据中引用了尚未定义的标签',tone:'slate'}}
+function tagSearch(ids){return uniq(ids).map(id=>{const def=tagDefinition(id);return`${id} ${def.label} ${def.description}`}).join(' ')}
+function tagBadges(ids){
+ if(!ids||!ids.length)return'';
+ return`<span class="ktags">${uniq(ids).map(id=>{const def=tagDefinition(id);return`<span class="ktag tone-${esc(def.tone)}" title="${esc(def.description)}">${esc(def.label)}</span>`}).join('')}</span>`;
+}
+function conflictBadge(node){return node._structureConflict?'<span class="structure-conflict" title="同一路径下存在同名的分组与科目">结构冲突</span>':''}
+function counts(x){if(kind(x)==='leaf')return{l:1,b:x.books.length};return x.children.reduce((a,v)=>{const q=counts(v);a.l+=q.l;a.b+=q.b;return a},{l:0,b:0})}
+function renderNode(x,pathNames=[],inheritedTags=[]){
+ const effectiveTags=uniq([...inheritedTags,...x.tags]),nextPath=[...pathNames,x.name];
+ if(kind(x)==='leaf'){
+  const ownSearch=[...nextPath,x.note,tagSearch(effectiveTags)].join(' ').toLowerCase();
+  const books=x.books.map(book=>{
+   const bookSearch=[book.title,book.note,tagSearch(book.tags)].join(' ').toLowerCase();
+   return`<span class="book" data-book-search="${esc(bookSearch)}" data-book-tags="${esc(book.tags.join(' '))}"><span class="book-title">${esc(book.title)}</span>${tagBadges(book.tags)}${book.note?`<span class="book-note">${esc(book.note)}</span>`:''}</span>`;
+  }).join('');
+  return`<div class="leaf" data-own-search="${esc(ownSearch)}" data-own-tags="${esc(effectiveTags.join(' '))}"><div class="leaf-head"><span class="leaf-name">${esc(x.name)}</span>${conflictBadge(x)}${tagBadges(x.tags)}${x.note?`<span class="leaf-note">${esc(x.note)}</span>`:''}</div><div class="books">${books}</div></div>`;
+ }
+ const q=counts(x);
+ return`<details class="node"><summary><span class="chev">›</span><span>${esc(x.name)}</span>${conflictBadge(x)}${tagBadges(x.tags)}<span class="node-count">${q.l} 主题 · ${q.b} 资料</span></summary><div class="children">${x.children.map(child=>renderNode(child,nextPath,effectiveTags)).join('')}</div></details>`;
 }
 function render(){
  const tree=document.querySelector('#tree'),nav=document.querySelector('#nav');
- tree.innerHTML=DATA.map((x,i)=>{const q=counts(x),id='branch-'+(i+1);return `<details class="branch" id="${id}" style="--accent:${colors[i%colors.length]}"><summary><span class="num">${String(i+1).padStart(2,'0')}</span><span><span class="branch-title">${esc(x.name)}</span><span class="branch-meta">${q.l} 个核心主题 · ${q.b} 条教材</span></span><span class="chev">›</span></summary><div class="branch-body">${x.children.map(renderNode).join('')}</div></details>`}).join('');
+ if(!DATA.length){
+  tree.innerHTML='<div class="load-state"><b>未找到可用数据文件</b><br>请至少保留 knowledge-tree-data.js 或 knowledge-tree-practical-data.js 其中之一。</div>';
+  nav.innerHTML='';updateStats({l:0,b:0});return;
+ }
+ tree.innerHTML=DATA.map((x,i)=>{const q=counts(x),id='branch-'+(i+1);return`<details class="branch" id="${id}" style="--accent:${colors[i%colors.length]}"><summary><span class="num">${String(i+1).padStart(2,'0')}</span><span><span class="branch-title">${esc(x.name)}</span>${conflictBadge(x)}${tagBadges(x.tags)}<span class="branch-meta">${q.l} 个核心主题 · ${q.b} 条资料</span></span><span class="chev">›</span></summary><div class="branch-body">${x.children.map(child=>renderNode(child,[x.name],x.tags)).join('')}</div></details>`}).join('');
  nav.innerHTML=DATA.map((x,i)=>`<a href="#branch-${i+1}">${String(i+1).padStart(2,'0')}　${esc(x.name)}</a>`).join('');
- const all=DATA.map(counts).reduce((a,q)=>({l:a.l+q.l,b:a.b+q.b}),{l:0,b:0});
- document.querySelector('#branchCount').textContent=DATA.length;document.querySelector('#leafCount').textContent=all.l;document.querySelector('#bookCount').textContent=all.b;
+ updateStats(DATA.map(counts).reduce((a,q)=>({l:a.l+q.l,b:a.b+q.b}),{l:0,b:0}));
 }
-function walkDetails(open){document.querySelectorAll('#tree details').forEach(d=>d.open=open)}
-function filter(){
- const term=document.querySelector('#q').value.trim().toLowerCase(), leaves=[...document.querySelectorAll('.leaf')];
- if(!term){leaves.forEach(x=>x.hidden=false);document.querySelectorAll('.node,.branch').forEach(x=>x.hidden=false);return}
- leaves.forEach(x=>x.hidden=!x.dataset.search.includes(term));
- [...document.querySelectorAll('.node')].reverse().forEach(d=>{const yes=[...d.querySelectorAll('.leaf')].some(x=>!x.hidden);d.hidden=!yes;if(yes)d.open=true});
- document.querySelectorAll('.branch').forEach(d=>{const yes=[...d.querySelectorAll('.leaf')].some(x=>!x.hidden);d.hidden=!yes;if(yes)d.open=true});
+function updateStats(all){document.querySelector('#branchCount').textContent=DATA.length;document.querySelector('#leafCount').textContent=all.l;document.querySelector('#bookCount').textContent=all.b}
+function renderTagFilters(){
+ const panel=document.querySelector('#tagPanel'),container=document.querySelector('#tagFilters');
+ if(!TAG_DEFINITIONS.size){panel.hidden=true;container.innerHTML='';return}
+ panel.hidden=false;container.innerHTML=[...TAG_DEFINITIONS.values()].map(def=>`<button class="tag-filter tone-${esc(def.tone)}" type="button" data-tag="${esc(def.id)}" aria-pressed="false" title="${esc(def.description)}">${esc(def.label)}</button>`).join('');
+ container.querySelectorAll('.tag-filter').forEach(button=>button.addEventListener('click',()=>{
+  const id=button.dataset.tag;if(ACTIVE_TAGS.has(id))ACTIVE_TAGS.delete(id);else ACTIVE_TAGS.add(id);
+  button.setAttribute('aria-pressed',String(ACTIVE_TAGS.has(id)));filterTree();
+ }));
+}
+function hasAll(value,required){const present=new Set((value||'').split(/\s+/).filter(Boolean));return required.every(id=>present.has(id))}
+function filterTree(){
+ const term=document.querySelector('#q').value.trim().toLowerCase(),required=[...ACTIVE_TAGS],hasFilter=Boolean(term||required.length);
+ document.querySelectorAll('.leaf').forEach(leaf=>{
+  const ownText=!term||leaf.dataset.ownSearch.includes(term),ownTags=!required.length||hasAll(leaf.dataset.ownTags,required),direct=ownText&&ownTags;
+  let matchingBook=false;
+  leaf.querySelectorAll('.book').forEach(book=>{
+   const bookText=!term||ownText||book.dataset.bookSearch.includes(term);
+   const bookTags=!required.length||ownTags||hasAll(book.dataset.bookTags,required);
+   const match=bookText&&bookTags;matchingBook=matchingBook||match;
+   book.hidden=!direct&&!match;book.classList.toggle('filter-match',hasFilter&&!direct&&match);
+  });
+  leaf.hidden=!direct&&!matchingBook;
+ });
+ [...document.querySelectorAll('.node')].reverse().forEach(node=>{const yes=[...node.querySelectorAll('.leaf')].some(leaf=>!leaf.hidden);node.hidden=!yes;if(hasFilter&&yes)node.open=true});
+ document.querySelectorAll('.branch').forEach(branch=>{const yes=[...branch.querySelectorAll('.leaf')].some(leaf=>!leaf.hidden);branch.hidden=!yes;if(hasFilter&&yes)branch.open=true});
+}
+function walkDetails(open){document.querySelectorAll('#tree details:not([hidden])').forEach(d=>d.open=open)}
+function showWarnings(){
+ const box=document.querySelector('#dataWarnings');if(!WARNINGS.length){box.hidden=true;box.innerHTML='';return}
+ const shown=WARNINGS.slice(0,10),more=WARNINGS.length-shown.length;box.hidden=false;box.innerHTML=`<b>数据提示：</b>${shown.map(esc).join('；')}${more?`；另有 ${more} 条，请查看控制台`:''}`;
+}
+function loadData(){
+ const specs=[
+  {label:'基础学科数据',filename:'knowledge-tree-data.js',payload:window.KNOWLEDGE_TREE_DATA},
+  {label:'实践与隐性知识数据',filename:'knowledge-tree-practical-data.js',payload:window.PRACTICAL_KNOWLEDGE_TREE_DATA}
+ ];
+ const loaded=[],missing=[],invalid=[];
+ specs.forEach(spec=>{
+  if(spec.payload===undefined){missing.push(spec.filename);return}
+  const normalized=normalizeDataset(spec.payload,spec.label);
+  if(normalized)loaded.push(normalized);else invalid.push(spec.filename);
+ });
+ loaded.forEach(source=>{
+  source.tagDefinitions.forEach(def=>{if(TAG_DEFINITIONS.has(def.id)&&JSON.stringify(TAG_DEFINITIONS.get(def.id))!==JSON.stringify(def))addWarning(`标签 ${def.id} 被多个数据源定义，采用后加载的定义`);TAG_DEFINITIONS.set(def.id,def)});
+  mergeSiblings(DATA,source.branches,'知识树');
+ });
+ const usedTags=new Set();DATA.forEach(branch=>collectTagIds(branch,usedTags));
+ usedTags.forEach(id=>{if(!TAG_DEFINITIONS.has(id)){addWarning(`引用了未定义标签 ${id}，已使用默认样式`);TAG_DEFINITIONS.set(id,tagDefinition(id))}});
+ const dates=loaded.map(source=>source.updatedAt).filter(Boolean).sort();document.querySelector('#editionDate').textContent=dates.at(-1)||'—';
+ const status=[];status.push(`已加载 ${loaded.length}/2 个数据源`);if(loaded.length)status.push(loaded.map(source=>source.label).join('、'));if(missing.length)status.push(`未找到：${missing.join('、')}`);if(invalid.length)status.push(`格式无效：${invalid.join('、')}`);
+ document.querySelector('#sourceStatus').textContent=status.join('；');
+ render();renderTagFilters();showWarnings();
 }
 const searchBox=document.querySelector('#q');
 document.querySelector('#expand').onclick=()=>walkDetails(true);
 document.querySelector('#collapse').onclick=()=>walkDetails(false);
-document.querySelector('#clear').onclick=()=>{searchBox.value='';filter();searchBox.focus()};
-searchBox.oninput=filter;
-
-function loadData(){
- const tree=document.querySelector('#tree');
- try{
-  const payload=window.KNOWLEDGE_TREE_DATA;
-  if(!payload||!Array.isArray(payload.branches))throw new Error('数据文件缺少 branches 数组');
-  DATA=payload.branches;
-  if(payload.updatedAt)document.querySelector('#editionDate').textContent=payload.updatedAt;
-  render();
- }catch(error){
-  console.error('知识树数据加载失败：',error);
-  tree.innerHTML=`<div class="load-state error"><b>无法加载 knowledge-tree-data.js</b><br>请确认数据文件与 HTML 位于同一目录。</div>`;
- }
-}
+document.querySelector('#clear').onclick=()=>{searchBox.value='';ACTIVE_TAGS.clear();document.querySelectorAll('.tag-filter').forEach(button=>button.setAttribute('aria-pressed','false'));filterTree();searchBox.focus()};
+searchBox.oninput=filterTree;
 loadData();
 </script>
 </body>
