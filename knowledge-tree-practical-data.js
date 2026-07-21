@@ -1,7 +1,7 @@
 window.PRACTICAL_KNOWLEDGE_TREE_DATA = {
   "schemaVersion": 1,
   "title": "隐性知识、现实能力与人生实践",
-  "updatedAt": "2026-07-21",
+  "updatedAt": "2026-07-22",
   "tagDefinitions": [
     {"id":"defensive","label":"主要帮助个人自保","description":"主要帮助个人识别、避免或应对现实伤害，因缺少明确的传统院系归属而较少进入标准课程。","tone":"green"},
     {"id":"conflict-of-interest","label":"触及机构利益","description":"公开教授这些知识可能与机构、行业或专业角色的利益发生冲突。","tone":"amber"},
@@ -118,7 +118,7 @@ window.PRACTICAL_KNOWLEDGE_TREE_DATA = {
               "tags": ["practice-required","high-context"],
               "books": [
                 {"title":"Pang《Rest: Why You Get More Done When You Work Less》","tags": ["high-context"]},
-                {"title":"Schwartz & McCarthy《The Power of Full Engagement》","tags": ["practice-required","high-context"]}
+                {"title":"Loehr & Schwartz《The Power of Full Engagement》","tags": ["practice-required","high-context"]}
               ]
             }
           ]
@@ -180,7 +180,7 @@ window.PRACTICAL_KNOWLEDGE_TREE_DATA = {
               "tags": ["defensive","manipulation","jurisdiction-sensitive","time-sensitive"],
               "books": [
                 {"title":"Konnikova《The Confidence Game》","tags": ["defensive","manipulation"]},
-                {"title":"Whitty & Buchanan《The Psychology of the Online Dating Romance Scam》","tags": ["defensive","trauma-sensitive"]}
+                {"title":"Whitty & Buchanan《The Psychology of the Online Dating Romance Scam》","tags": ["defensive","trauma-sensitive"],"note":"2012年University of Leicester发布、ESRC项目支持的研究报告"}
               ]
             },
             {
