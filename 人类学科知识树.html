@@ -81,12 +81,20 @@ function normalizeTags(value,context){
  if(!Array.isArray(value)){addWarning(`${context} 的 tags 不是数组，已忽略`);return[]}
  return uniq(value.filter(v=>typeof v==='string').map(v=>v.trim()).filter(Boolean));
 }
+function parseLegacyBook(value){
+ const match=typeof value==='string'?value.trim().match(/^(.+?)《(.+)》$/):null;
+ return match?{author:match[1].trim(),title:match[2].trim()}:null;
+}
 function normalizeBook(value,context){
- if(typeof value==='string')value={title:value};
- if(!value||typeof value!=='object'||typeof value.title!=='string'||!value.title.trim()){
-  addWarning(`${context} 包含无效或空白书名，已忽略`);return null;
+ if(typeof value==='string')value=parseLegacyBook(value);
+ else if(value&&typeof value==='object'&&(!value.author||typeof value.author!=='string')&&typeof value.title==='string'){
+  const parsed=parseLegacyBook(value.title);if(parsed)value={...value,...parsed};
  }
- return{title:value.title.trim(),note:typeof value.note==='string'?value.note.trim():'',tags:normalizeTags(value.tags,`${context} / ${value.title}`)};
+ if(!value||typeof value!=='object'||typeof value.author!=='string'||!value.author.trim()||typeof value.title!=='string'||!value.title.trim()){
+  addWarning(`${context} 包含无效或缺少作者、书名的资料，已忽略`);return null;
+ }
+ const author=value.author.trim(),title=value.title.trim();
+ return{author,title,note:typeof value.note==='string'?value.note.trim():'',tags:normalizeTags(value.tags,`${context} / ${author}《${title}》`)};
 }
 function normalizeNode(value,context){
  if(!value||typeof value!=='object'||typeof value.name!=='string'||!value.name.trim()){
@@ -114,7 +122,8 @@ function normalizeDataset(payload,label,id){
   branches:payload.branches.map(v=>normalizeNode(v,label)).filter(Boolean)
  };
 }
-function cloneBook(book){return{title:book.title,note:book.note,tags:[...book.tags]}}
+function cloneBook(book){return{author:book.author,title:book.title,note:book.note,tags:[...book.tags]}}
+function bookKey(book){return `${book.author.trim()}\u0000${book.title.trim()}`}
 function cloneNode(node){
  const copy={name:node.name,note:node.note,tags:[...node.tags]};
  if(node._structureConflict)copy._structureConflict=true;
@@ -129,7 +138,7 @@ function mergeNode(target,incoming,path){
  target.tags=uniq([...target.tags,...incoming.tags]);target.note=mergeText(target.note,incoming.note);
  if(kind(target)==='group')mergeSiblings(target.children,incoming.children,`${path} / ${target.name}`);
  else incoming.books.forEach(book=>{
-  const match=target.books.find(existing=>existing.title.trim()===book.title.trim());
+  const match=target.books.find(existing=>bookKey(existing)===bookKey(book));
   if(match){match.tags=uniq([...match.tags,...book.tags]);match.note=mergeText(match.note,book.note)}else target.books.push(cloneBook(book));
  });
 }
@@ -161,8 +170,8 @@ function renderNode(x,pathNames=[],inheritedTags=[]){
  if(kind(x)==='leaf'){
   const ownSearch=[...nextPath,x.note,tagSearch(effectiveTags)].join(' ').toLowerCase();
   const books=x.books.map(book=>{
-   const bookSearch=[book.title,book.note,tagSearch(book.tags)].join(' ').toLowerCase();
-   return`<span class="book" data-book-search="${esc(bookSearch)}" data-book-tags="${esc(book.tags.join(' '))}"><span class="book-title">${esc(book.title)}</span>${tagBadges(book.tags)}${book.note?`<span class="book-note">${esc(book.note)}</span>`:''}</span>`;
+   const bookSearch=[book.author,book.title,book.note,tagSearch(book.tags)].join(' ').toLowerCase();
+   return`<span class="book" data-book-search="${esc(bookSearch)}" data-book-tags="${esc(book.tags.join(' '))}"><span class="book-author">${esc(book.author)}</span><span class="book-title">《${esc(book.title)}》</span>${tagBadges(book.tags)}${book.note?`<span class="book-note">${esc(book.note)}</span>`:''}</span>`;
   }).join('');
   return`<div class="leaf" data-own-search="${esc(ownSearch)}" data-own-tags="${esc(effectiveTags.join(' '))}"><div class="leaf-head"><span class="leaf-name">${esc(x.name)}</span>${conflictBadge(x)}${tagBadges(x.tags)}${x.note?`<span class="leaf-note">${esc(x.note)}</span>`:''}</div><div class="books">${books}</div></div>`;
  }
