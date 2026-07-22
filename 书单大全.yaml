@@ -1,0 +1,898 @@
+# 书单大全 — 共 897 本（去重后）
+- {author: "Godfrey-Smith", title: "Theory and Reality", zh: "理论与实在"}
+- {author: "Chalmers", title: "What Is This Thing Called Science?", zh: "科学究竟是什么"}
+- {author: "Audi", title: "Epistemology: A Contemporary Introduction", zh: "知识论：当代导论"}
+- {author: "Pritchard", title: "What Is This Thing Called Knowledge?", zh: "知识究竟是什么"}
+- {author: "Kuhn", title: "The Structure of Scientific Revolutions", zh: "科学革命的结构"}
+- {author: "Bowler & Morus", title: "Making Modern Science", zh: "塑造现代科学"}
+- {author: "Meadows", title: "Thinking in Systems", zh: "系统之美"}
+- {author: "von Bertalanffy", title: "General System Theory", zh: "一般系统论"}
+- {author: "Mitchell", title: "Complexity: A Guided Tour", zh: "复杂"}
+- {author: "Page", title: "The Model Thinker", zh: "模型思维"}
+- {author: "Creswell & Creswell", title: "Research Design", zh: "研究设计"}
+- {author: "Shadish, Cook & Campbell", title: "Experimental and Quasi-Experimental Designs", zh: "实验与准实验设计"}
+- {author: "Creswell & Poth", title: "Qualitative Inquiry and Research Design", zh: "质性研究与设计"}
+- {author: "Miles, Huberman & Saldaña", title: "Qualitative Data Analysis", zh: "质性资料分析"}
+- {author: "Hernán & Robins", title: "Causal Inference: What If", zh: "因果推断：假设何在"}
+- {author: "Pearl, Glymour & Jewell", title: "Causal Inference in Statistics", zh: "统计学中的因果推断"}
+- {author: "DeVellis & Thorpe", title: "Scale Development", zh: "量表编制"}
+- {author: "Furr", title: "Psychometrics", zh: "心理测量学"}
+- {author: "Cooper", title: "Research Synthesis and Meta-Analysis", zh: "研究综合与元分析"}
+- {author: "Borenstein et al.", title: "Introduction to Meta-Analysis", zh: "元分析导论"}
+- {author: "Kitzes, Turek & Deniz", title: "The Practice of Reproducible Research", zh: "可重复研究实践"}
+- {author: "National Academies", title: "Reproducibility and Replicability in Science", zh: "科学中的可重复性与可复制性"}
+- {author: "Copi, Cohen & McMahon", title: "Introduction to Logic", zh: "逻辑学导论"}
+- {author: "Bowell & Kemp", title: "Critical Thinking", zh: "批判性思维"}
+- {author: "Toulmin", title: "The Uses of Argument", zh: "论证的使用"}
+- {author: "Aristotle", title: "Rhetoric", zh: "修辞学"}
+- {author: "Booth et al.", title: "The Craft of Research", zh: "研究的技艺"}
+- {author: "Turabian", title: "A Manual for Writers", zh: "作者手册"}
+- {author: "Manning, Raghavan & Schütze", title: "Introduction to Information Retrieval", zh: "信息检索导论"}
+- {author: "Booth, Sutton & Papaioannou", title: "Systematic Approaches to a Successful Literature Review", zh: "成功文献综述的系统方法"}
+- {author: "Diez, Barr & Çetinkaya-Rundel", title: "OpenIntro Statistics", zh: "OpenIntro统计学"}
+- {author: "Spiegelhalter", title: "The Art of Statistics", zh: "统计的艺术"}
+- {author: "Tufte", title: "The Visual Display of Quantitative Information", zh: "定量信息的视觉展示"}
+- {author: "Munzner", title: "Visualization Analysis and Design", zh: "可视化分析与设计"}
+- {author: "Enderton", title: "Elements of Set Theory", zh: "集合论基础"}
+- {author: "Jech", title: "Set Theory", zh: "集合论"}
+- {author: "Enderton", title: "A Mathematical Introduction to Logic", zh: "数理逻辑导论"}
+- {author: "Boolos, Burgess & Jeffrey", title: "Computability and Logic", zh: "可计算性与逻辑"}
+- {author: "Marker", title: "Model Theory: An Introduction", zh: "模型论导论"}
+- {author: "Velleman", title: "How to Prove It", zh: "证明的方法"}
+- {author: "Hammack", title: "Book of Proof", zh: "证明入门"}
+- {author: "Sipser", title: "Introduction to the Theory of Computation", zh: "计算理论导论"}
+- {author: "Soare", title: "Turing Computability", zh: "图灵可计算性"}
+- {author: "Awodey", title: "Category Theory", zh: "范畴论"}
+- {author: "Mac Lane", title: "Categories for the Working Mathematician", zh: "工作数学家的范畴论"}
+- {author: "Axler", title: "Linear Algebra Done Right", zh: "线性代数应该这样学"}
+- {author: "Hoffman & Kunze", title: "Linear Algebra", zh: "线性代数"}
+- {author: "Dummit & Foote", title: "Abstract Algebra", zh: "抽象代数"}
+- {author: "Lang", title: "Algebra", zh: "代数"}
+- {author: "Atiyah & Macdonald", title: "Introduction to Commutative Algebra", zh: "交换代数导论"}
+- {author: "Fulton & Harris", title: "Representation Theory", zh: "表示论"}
+- {author: "Apostol", title: "Introduction to Analytic Number Theory", zh: "解析数论导论"}
+- {author: "Ireland & Rosen", title: "A Classical Introduction to Modern Number Theory", zh: "现代数论的经典导论"}
+- {author: "Neukirch", title: "Algebraic Number Theory", zh: "代数数论"}
+- {author: "Hartshorne", title: "Algebraic Geometry", zh: "代数几何"}
+- {author: "Vakil", title: "The Rising Sea", zh: "上升的海洋"}
+- {author: "Apostol", title: "Calculus", zh: "微积分"}
+- {author: "Spivak", title: "Calculus", zh: "微积分"}
+- {author: "Rudin", title: "Principles of Mathematical Analysis", zh: "数学分析原理"}
+- {author: "Folland", title: "Real Analysis", zh: "实分析"}
+- {author: "Ahlfors", title: "Complex Analysis", zh: "复分析"}
+- {author: "Stein & Shakarchi", title: "Complex Analysis", zh: "复分析"}
+- {author: "Kreyszig", title: "Introductory Functional Analysis with Applications", zh: "泛函分析导论及应用"}
+- {author: "Conway", title: "A Course in Functional Analysis", zh: "泛函分析教程"}
+- {author: "Stein & Shakarchi", title: "Fourier Analysis", zh: "傅里叶分析"}
+- {author: "Boyce, DiPrima & Meade", title: "Elementary Differential Equations", zh: "初等微分方程"}
+- {author: "Arnold", title: "Ordinary Differential Equations", zh: "常微分方程"}
+- {author: "Evans", title: "Partial Differential Equations", zh: "偏微分方程"}
+- {author: "Strauss", title: "Partial Differential Equations", zh: "偏微分方程"}
+- {author: "Strogatz", title: "Nonlinear Dynamics and Chaos", zh: "非线性动力学与混沌"}
+- {author: "Katok & Hasselblatt", title: "Introduction to the Modern Theory of Dynamical Systems", zh: "现代动力系统理论导论"}
+- {author: "Greenberg", title: "Euclidean and Non-Euclidean Geometries", zh: "欧氏与非欧几何"}
+- {author: "do Carmo", title: "Differential Geometry of Curves and Surfaces", zh: "曲线与曲面的微分几何"}
+- {author: "Lee", title: "Introduction to Smooth Manifolds", zh: "光滑流形导论"}
+- {author: "do Carmo", title: "Riemannian Geometry", zh: "黎曼几何"}
+- {author: "Munkres", title: "Topology", zh: "拓扑学"}
+- {author: "Hatcher", title: "Algebraic Topology", zh: "代数拓扑"}
+- {author: "May", title: "A Concise Course in Algebraic Topology", zh: "代数拓扑简明教程"}
+- {author: "McDuff & Salamon", title: "Introduction to Symplectic Topology", zh: "辛拓扑导论"}
+- {author: "Rosen", title: "Discrete Mathematics and Its Applications", zh: "离散数学及其应用"}
+- {author: "Graham, Knuth & Patashnik", title: "Concrete Mathematics", zh: "具体数学"}
+- {author: "van Lint & Wilson", title: "A Course in Combinatorics", zh: "组合学教程"}
+- {author: "Diestel", title: "Graph Theory", zh: "图论"}
+- {author: "West", title: "Introduction to Graph Theory", zh: "图论导论"}
+- {author: "MacWilliams & Sloane", title: "The Theory of Error-Correcting Codes", zh: "纠错码理论"}
+- {author: "Hoffstein, Pipher & Silverman", title: "An Introduction to Mathematical Cryptography", zh: "数论密码学导论"}
+- {author: "Ross", title: "A First Course in Probability", zh: "概率论初级教程"}
+- {author: "Grimmett & Stirzaker", title: "Probability and Random Processes", zh: "概率与随机过程"}
+- {author: "Casella & Berger", title: "Statistical Inference", zh: "统计推断"}
+- {author: "James et al.", title: "An Introduction to Statistical Learning", zh: "统计学习导论"}
+- {author: "Hastie, Tibshirani & Friedman", title: "The Elements of Statistical Learning", zh: "统计学习基础"}
+- {author: "Gelman et al.", title: "Bayesian Data Analysis", zh: "贝叶斯数据分析"}
+- {author: "Johnson & Wichern", title: "Applied Multivariate Statistical Analysis", zh: "实用多元统计分析"}
+- {author: "Hyndman & Athanasopoulos", title: "Forecasting: Principles and Practice", zh: "预测：原理与实践"}
+- {author: "Box et al.", title: "Time Series Analysis", zh: "时间序列分析"}
+- {author: "Ross", title: "Introduction to Probability Models", zh: "概率模型导论"}
+- {author: "Montgomery", title: "Design and Analysis of Experiments", zh: "试验设计与分析"}
+- {author: "Lohr", title: "Sampling: Design and Analysis", zh: "抽样：设计与分析"}
+- {author: "Hillier & Lieberman", title: "Introduction to Operations Research", zh: "运筹学导论"}
+- {author: "Burden & Faires", title: "Numerical Analysis", zh: "数值分析"}
+- {author: "Trefethen & Bau", title: "Numerical Linear Algebra", zh: "数值线性代数"}
+- {author: "Boyd & Vandenberghe", title: "Convex Optimization", zh: "凸优化"}
+- {author: "Kirk", title: "Optimal Control Theory", zh: "最优控制理论"}
+- {author: "Osborne", title: "An Introduction to Game Theory", zh: "博弈论导论"}
+- {author: "Fudenberg & Tirole", title: "Game Theory", zh: "博弈论"}
+- {author: "Giordano et al.", title: "A First Course in Mathematical Modeling", zh: "数学建模入门"}
+- {author: "Hull", title: "Options, Futures, and Other Derivatives", zh: "期权、期货及其他衍生品"}
+- {author: "Taylor", title: "Classical Mechanics", zh: "经典力学"}
+- {author: "Goldstein, Poole & Safko", title: "Classical Mechanics", zh: "经典力学"}
+- {author: "Griffiths", title: "Introduction to Electrodynamics", zh: "电动力学导论"}
+- {author: "Jackson", title: "Classical Electrodynamics", zh: "经典电动力学"}
+- {author: "Schroeder", title: "An Introduction to Thermal Physics", zh: "热物理学导论"}
+- {author: "Callen", title: "Thermodynamics", zh: "热力学"}
+- {author: "Pathria & Beale", title: "Statistical Mechanics", zh: "统计力学"}
+- {author: "Reif", title: "Fundamentals of Statistical and Thermal Physics", zh: "统计与热物理基础"}
+- {author: "White", title: "Fluid Mechanics", zh: "流体力学"}
+- {author: "Batchelor", title: "An Introduction to Fluid Dynamics", zh: "流体动力学导论"}
+- {author: "French", title: "Vibrations and Waves", zh: "振动与波"}
+- {author: "Crawford", title: "Waves", zh: "波"}
+- {author: "Kinsler et al.", title: "Fundamentals of Acoustics", zh: "声学基础"}
+- {author: "Hecht", title: "Optics", zh: "光学"}
+- {author: "Born & Wolf", title: "Principles of Optics", zh: "光学原理"}
+- {author: "Griffiths & Schroeter", title: "Introduction to Quantum Mechanics", zh: "量子力学导论"}
+- {author: "Sakurai & Napolitano", title: "Modern Quantum Mechanics", zh: "现代量子力学"}
+- {author: "Schwartz", title: "Quantum Field Theory and the Standard Model", zh: "量子场论与标准模型"}
+- {author: "Peskin & Schroeder", title: "An Introduction to Quantum Field Theory", zh: "量子场论导论"}
+- {author: "Hartle", title: "Gravity", zh: "引力"}
+- {author: "Carroll", title: "Spacetime and Geometry", zh: "时空与几何"}
+- {author: "Griffiths", title: "Introduction to Elementary Particles", zh: "基本粒子导论"}
+- {author: "Krane", title: "Introductory Nuclear Physics", zh: "初等核物理"}
+- {author: "Chen", title: "Introduction to Plasma Physics and Controlled Fusion", zh: "等离子体物理与受控聚变导论"}
+- {author: "Arfken, Weber & Harris", title: "Mathematical Methods for Physicists", zh: "物理学者的数学方法"}
+- {author: "Kittel", title: "Introduction to Solid State Physics", zh: "固体物理导论"}
+- {author: "Ashcroft & Mermin", title: "Solid State Physics", zh: "固体物理学"}
+- {author: "Altland & Simons", title: "Condensed Matter Field Theory", zh: "凝聚态场论"}
+- {author: "Foot", title: "Atomic Physics", zh: "原子物理"}
+- {author: "Herzberg", title: "Molecular Spectra and Molecular Structure", zh: "分子光谱与分子结构"}
+- {author: "Tinkham", title: "Introduction to Superconductivity", zh: "超导导论"}
+- {author: "Jones", title: "Soft Condensed Matter", zh: "软物质"}
+- {author: "Karttunen et al.", title: "Fundamental Astronomy", zh: "基础天文学"}
+- {author: "Carroll & Ostlie", title: "An Introduction to Modern Astrophysics", zh: "现代天体物理学导论"}
+- {author: "Kippenhahn, Weigert & Weiss", title: "Stellar Structure and Evolution", zh: "恒星结构与演化"}
+- {author: "Binney & Merrifield", title: "Galactic Astronomy", zh: "星系天文学"}
+- {author: "Ryden", title: "Introduction to Cosmology", zh: "宇宙学导论"}
+- {author: "Dodelson & Schmidt", title: "Modern Cosmology", zh: "现代宇宙学"}
+- {author: "de Pater & Lissauer", title: "Planetary Sciences", zh: "行星科学"}
+- {author: "Cockell", title: "Astrobiology: Understanding Life in the Universe", zh: "天体生物学：理解宇宙中的生命"}
+- {author: "Taylor", title: "An Introduction to Error Analysis", zh: "误差分析导论"}
+- {author: "Bevington & Robinson", title: "Data Reduction and Error Analysis", zh: "数据处理与误差分析"}
+- {author: "Horowitz & Hill", title: "The Art of Electronics", zh: "电子学的艺术"}
+- {author: "Newman", title: "Computational Physics", zh: "计算物理"}
+- {author: "O’Hanlon", title: "A User’s Guide to Vacuum Technology", zh: "真空技术使用指南"}
+- {author: "Atkins & Jones", title: "Chemical Principles", zh: "化学原理"}
+- {author: "Zumdahl & Zumdahl", title: "Chemistry", zh: "化学"}
+- {author: "Clayden, Greeves & Warren", title: "Organic Chemistry", zh: "有机化学"}
+- {author: "McMurry", title: "Organic Chemistry", zh: "有机化学"}
+- {author: "Miessler, Fischer & Tarr", title: "Inorganic Chemistry", zh: "无机化学"}
+- {author: "Housecroft & Sharpe", title: "Inorganic Chemistry", zh: "无机化学"}
+- {author: "Atkins, de Paula & Keeler", title: "Atkins’ Physical Chemistry", zh: "Atkins物理化学"}
+- {author: "McQuarrie & Simon", title: "Physical Chemistry", zh: "物理化学"}
+- {author: "Harris", title: "Quantitative Chemical Analysis", zh: "定量化学分析"}
+- {author: "Nelson & Cox", title: "Lehninger Principles of Biochemistry", zh: "Lehninger生物化学原理"}
+- {author: "Berg et al.", title: "Biochemistry", zh: "生物化学"}
+- {author: "McQuarrie", title: "Quantum Chemistry", zh: "量子化学"}
+- {author: "Laidler", title: "Chemical Kinetics", zh: "化学动力学"}
+- {author: "Denbigh", title: "The Principles of Chemical Equilibrium", zh: "化学平衡原理"}
+- {author: "Pavia et al.", title: "Introduction to Spectroscopy", zh: "光谱学导论"}
+- {author: "Skoog, Holler & Crouch", title: "Principles of Instrumental Analysis", zh: "仪器分析原理"}
+- {author: "Bard & Faulkner", title: "Electrochemical Methods", zh: "电化学方法"}
+- {author: "Adamson & Gast", title: "Physical Chemistry of Surfaces", zh: "表面的物理化学"}
+- {author: "Somorjai & Li", title: "Introduction to Surface Chemistry and Catalysis", zh: "表面化学与催化导论"}
+- {author: "Callister & Rethwisch", title: "Materials Science and Engineering", zh: "材料科学与工程"}
+- {author: "Ashby, Shercliff & Cebon", title: "Materials", zh: "材料学"}
+- {author: "Smallman & Ngan", title: "Modern Physical Metallurgy", zh: "现代物理冶金"}
+- {author: "Kingery, Bowen & Uhlmann", title: "Introduction to Ceramics", zh: "陶瓷导论"}
+- {author: "Young & Lovell", title: "Introduction to Polymers", zh: "聚合物导论"}
+- {author: "Odian", title: "Principles of Polymerization", zh: "聚合反应原理"}
+- {author: "Jones", title: "Mechanics of Composite Materials", zh: "复合材料力学"}
+- {author: "Streetman & Banerjee", title: "Solid State Electronic Devices", zh: "固态电子器件"}
+- {author: "Poole & Owens", title: "Introduction to Nanotechnology", zh: "纳米技术导论"}
+- {author: "Cullity & Stock", title: "Elements of X-Ray Diffraction", zh: "X射线衍射基础"}
+- {author: "Manahan", title: "Environmental Chemistry", zh: "环境化学"}
+- {author: "Patrick", title: "An Introduction to Medicinal Chemistry", zh: "药物化学导论"}
+- {author: "Cramer", title: "Essentials of Computational Chemistry", zh: "计算化学精要"}
+- {author: "Anastas & Warner", title: "Green Chemistry: Theory and Practice", zh: "绿色化学：理论与实践"}
+- {author: "Damodaran & Parkin", title: "Fennema’s Food Chemistry", zh: "Fennema食品化学"}
+- {author: "Choppin et al.", title: "Radiochemistry and Nuclear Chemistry", zh: "放射化学与核化学"}
+- {author: "Tarbuck, Lutgens & Tasa", title: "Earth Science", zh: "地球科学"}
+- {author: "Klein & Dutrow", title: "Manual of Mineral Science", zh: "矿物科学手册"}
+- {author: "Philpotts & Ague", title: "Principles of Igneous and Metamorphic Petrology", zh: "火成岩与变质岩岩石学原理"}
+- {author: "Nichols", title: "Sedimentology and Stratigraphy", zh: "沉积学与地层学"}
+- {author: "Fossen", title: "Structural Geology", zh: "构造地质学"}
+- {author: "Lowrie", title: "Fundamentals of Geophysics", zh: "地球物理学基础"}
+- {author: "White", title: "Geochemistry", zh: "地球化学"}
+- {author: "Benton & Harper", title: "Introduction to Paleobiology and the Fossil Record", zh: "古生物学与化石记录导论"}
+- {author: "Wallace & Hobbs", title: "Atmospheric Science", zh: "大气科学"}
+- {author: "Ahrens & Henson", title: "Meteorology Today", zh: "今日气象学"}
+- {author: "Barry & Chorley", title: "Atmosphere, Weather and Climate", zh: "大气、天气与气候"}
+- {author: "Dingman", title: "Physical Hydrology", zh: "物理水文学"}
+- {author: "Talley et al.", title: "Descriptive Physical Oceanography", zh: "描述性物理海洋学"}
+- {author: "Benn & Evans", title: "Glaciers and Glaciation", zh: "冰川与冰川作用"}
+- {author: "IPCC", title: "Climate Change: The Physical Science Basis", zh: "气候变化：物理科学基础"}
+- {author: "Dessler", title: "Introduction to Modern Climate Change", zh: "现代气候变化导论"}
+- {author: "Christopherson", title: "Geosystems", zh: "地球系统"}
+- {author: "Huggett", title: "Fundamentals of Geomorphology", zh: "地貌学基础"}
+- {author: "Brady & Weil", title: "The Nature and Properties of Soils", zh: "土壤的本质与性质"}
+- {author: "Longley et al.", title: "Geographic Information Science and Systems", zh: "地理信息科学与系统"}
+- {author: "Jensen", title: "Remote Sensing of the Environment", zh: "环境遥感"}
+- {author: "Slocum et al.", title: "Thematic Cartography and Geovisualization", zh: "专题制图与地理可视化"}
+- {author: "Ghilani", title: "Elementary Surveying", zh: "初等测量学"}
+- {author: "Alberts et al.", title: "Molecular Biology of the Cell", zh: "细胞的分子生物学"}
+- {author: "Cooper", title: "The Cell", zh: "细胞"}
+- {author: "Lodish et al.", title: "Molecular Cell Biology", zh: "分子细胞生物学"}
+- {author: "Griffiths et al.", title: "An Introduction to Genetic Analysis", zh: "遗传分析导论"}
+- {author: "Brown", title: "Genomes", zh: "基因组"}
+- {author: "Madigan et al.", title: "Brock Biology of Microorganisms", zh: "Brock微生物生物学"}
+- {author: "Flint et al.", title: "Principles of Virology", zh: "病毒学原理"}
+- {author: "Murphy & Weaver", title: "Janeway’s Immunobiology", zh: "Janeway免疫生物学"}
+- {author: "Gilbert & Barresi", title: "Developmental Biology", zh: "发育生物学"}
+- {author: "Raven, Evert & Eichhorn", title: "Biology of Plants", zh: "植物生物学"}
+- {author: "Hickman et al.", title: "Integrated Principles of Zoology", zh: "动物学综合原理"}
+- {author: "Hill, Wyse & Anderson", title: "Animal Physiology", zh: "动物生理学"}
+- {author: "Kandel et al.", title: "Principles of Neural Science", zh: "神经科学原理"}
+- {author: "Futuyma & Kirkpatrick", title: "Evolution", zh: "进化生物学"}
+- {author: "Freeman & Herron", title: "Evolutionary Analysis", zh: "进化分析"}
+- {author: "Alcock", title: "Animal Behavior", zh: "动物行为学"}
+- {author: "Wiley & Lieberman", title: "Phylogenetics", zh: "系统发育学"}
+- {author: "Castro & Huber", title: "Marine Biology", zh: "海洋生物学"}
+- {author: "Begon, Townsend & Harper", title: "Ecology", zh: "生态学"}
+- {author: "Molles", title: "Ecology", zh: "生态学"}
+- {author: "Chapin, Matson & Vitousek", title: "Principles of Terrestrial Ecosystem Ecology", zh: "陆地生态系统生态学原理"}
+- {author: "Lomolino et al.", title: "Biogeography", zh: "生物地理学"}
+- {author: "Primack", title: "Essentials of Conservation Biology", zh: "保护生物学精要"}
+- {author: "Miller & Spoolman", title: "Environmental Science", zh: "环境科学"}
+- {author: "Glasson & Therivel", title: "Introduction to Environmental Impact Assessment", zh: "环境影响评价导论"}
+- {author: "Walker et al.", title: "Principles of Ecotoxicology", zh: "生态毒理学原理"}
+- {author: "Pevsner", title: "Bioinformatics and Functional Genomics", zh: "生物信息学与功能基因组学"}
+- {author: "Durbin et al.", title: "Biological Sequence Analysis", zh: "生物序列分析"}
+- {author: "Alon", title: "An Introduction to Systems Biology", zh: "系统生物学导论"}
+- {author: "Compeau & Pevzner", title: "Bioinformatics Algorithms", zh: "生物信息学算法"}
+- {author: "Rosner", title: "Fundamentals of Biostatistics", zh: "生物统计学基础"}
+- {author: "Cormen et al.", title: "Introduction to Algorithms", zh: "算法导论"}
+- {author: "Sedgewick & Wayne", title: "Algorithms", zh: "算法"}
+- {author: "Pierce", title: "Types and Programming Languages", zh: "类型与程序设计语言"}
+- {author: "Huth & Ryan", title: "Logic in Computer Science", zh: "计算机科学中的逻辑"}
+- {author: "Arora & Barak", title: "Computational Complexity", zh: "计算复杂性"}
+- {author: "Cover & Thomas", title: "Elements of Information Theory", zh: "信息论基础"}
+- {author: "Katz & Lindell", title: "Introduction to Modern Cryptography", zh: "现代密码学导论"}
+- {author: "Mano & Ciletti", title: "Digital Design", zh: "数字设计"}
+- {author: "Patterson & Hennessy", title: "Computer Organization and Design", zh: "计算机组成与设计"}
+- {author: "Hennessy & Patterson", title: "Computer Architecture", zh: "计算机体系结构"}
+- {author: "Arpaci-Dusseau", title: "Operating Systems: Three Easy Pieces", zh: "操作系统：三个简单部分"}
+- {author: "Tanenbaum & Bos", title: "Modern Operating Systems", zh: "现代操作系统"}
+- {author: "Kurose & Ross", title: "Computer Networking: A Top-Down Approach", zh: "计算机网络：自顶向下方法"}
+- {author: "Peterson & Davie", title: "Computer Networks", zh: "计算机网络"}
+- {author: "Kleppmann", title: "Designing Data-Intensive Applications", zh: "数据密集型应用系统设计"}
+- {author: "Tanenbaum & van Steen", title: "Distributed Systems", zh: "分布式系统"}
+- {author: "Silberschatz, Korth & Sudarshan", title: "Database System Concepts", zh: "数据库系统概念"}
+- {author: "Ramakrishnan & Gehrke", title: "Database Management Systems", zh: "数据库管理系统"}
+- {author: "Aho et al.", title: "Compilers: Principles, Techniques, and Tools", zh: "编译原理：技术与工具"}
+- {author: "Grama et al.", title: "Introduction to Parallel Computing", zh: "并行计算导论"}
+- {author: "Lee & Seshia", title: "Introduction to Embedded Systems", zh: "嵌入式系统导论"}
+- {author: "Abelson & Sussman", title: "Structure and Interpretation of Computer Programs", zh: "计算机程序的构造和解释"}
+- {author: "Downey", title: "Think Python", zh: "像计算机科学家一样思考Python"}
+- {author: "Scott", title: "Programming Language Pragmatics", zh: "程序设计语言实践"}
+- {author: "Sommerville", title: "Software Engineering", zh: "软件工程"}
+- {author: "Pressman & Maxim", title: "Software Engineering", zh: "软件工程"}
+- {author: "Bass, Clements & Kazman", title: "Software Architecture in Practice", zh: "软件架构实践"}
+- {author: "Richards & Ford", title: "Fundamentals of Software Architecture", zh: "软件架构基础"}
+- {author: "Ammann & Offutt", title: "Introduction to Software Testing", zh: "软件测试导论"}
+- {author: "Anderson", title: "Security Engineering", zh: "安全工程"}
+- {author: "Stallings", title: "Network Security Essentials", zh: "网络安全基础"}
+- {author: "Acquisti et al.", title: "The Economics of Privacy", zh: "隐私经济学"}
+- {author: "Russell & Norvig", title: "Artificial Intelligence: A Modern Approach", zh: "人工智能：一种现代方法"}
+- {author: "Murphy", title: "Probabilistic Machine Learning", zh: "概率机器学习"}
+- {author: "Bishop", title: "Pattern Recognition and Machine Learning", zh: "模式识别与机器学习"}
+- {author: "Goodfellow, Bengio & Courville", title: "Deep Learning", zh: "深度学习"}
+- {author: "Sutton & Barto", title: "Reinforcement Learning", zh: "强化学习"}
+- {author: "Jurafsky & Martin", title: "Speech and Language Processing", zh: "语音与语言处理"}
+- {author: "Szeliski", title: "Computer Vision: Algorithms and Applications", zh: "计算机视觉：算法与应用"}
+- {author: "Duda, Hart & Stork", title: "Pattern Classification", zh: "模式分类"}
+- {author: "Han, Kamber & Pei", title: "Data Mining", zh: "数据挖掘"}
+- {author: "VanderPlas", title: "Python Data Science Handbook", zh: "Python数据科学手册"}
+- {author: "Lynch & Park", title: "Modern Robotics", zh: "现代机器人学"}
+- {author: "Siciliano et al.", title: "Robotics", zh: "机器人学"}
+- {author: "Hughes et al.", title: "Computer Graphics", zh: "计算机图形学"}
+- {author: "Akenine-Möller et al.", title: "Real-Time Rendering", zh: "实时渲染"}
+- {author: "Rogers, Sharp & Preece", title: "Interaction Design", zh: "交互设计"}
+- {author: "Shneiderman et al.", title: "Designing the User Interface", zh: "设计用户界面"}
+- {author: "Gonzalez & Woods", title: "Digital Image Processing", zh: "数字图像处理"}
+- {author: "Rabiner & Schafer", title: "Theory and Applications of Digital Speech Processing", zh: "数字语音处理理论与应用"}
+- {author: "Gregory", title: "Game Engine Architecture", zh: "游戏引擎架构"}
+- {author: "Bawden & Robinson", title: "Introduction to Information Science", zh: "信息科学导论"}
+- {author: "Rubin & Rubin", title: "Foundations of Library and Information Science", zh: "图书馆与信息科学基础"}
+- {author: "Taylor & Joudrey", title: "The Organization of Information", zh: "信息组织"}
+- {author: "Millar", title: "Archives: Principles and Practices", zh: "档案：原则与实践"}
+- {author: "Harvey", title: "Digital Curation", zh: "数字保存"}
+- {author: "Hibbeler", title: "Engineering Mechanics: Statics and Dynamics", zh: "工程力学：静力学与动力学"}
+- {author: "Gere & Goodno", title: "Mechanics of Materials", zh: "材料力学"}
+- {author: "Kreyszig", title: "Advanced Engineering Mathematics", zh: "高等工程数学"}
+- {author: "Dieter & Schmidt", title: "Engineering Design", zh: "工程设计"}
+- {author: "INCOSE", title: "Systems Engineering Handbook", zh: "系统工程手册"}
+- {author: "Ebeling", title: "An Introduction to Reliability and Maintainability Engineering", zh: "可靠性与可维修性工程导论"}
+- {author: "Montgomery", title: "Introduction to Statistical Quality Control", zh: "统计质量控制导论"}
+- {author: "Niebel & Freivalds", title: "Methods, Standards, and Work Design", zh: "方法、标准与作业设计"}
+- {author: "Çengel & Boles", title: "Thermodynamics: An Engineering Approach", zh: "热力学：工程方法"}
+- {author: "Incropera et al.", title: "Fundamentals of Heat and Mass Transfer", zh: "传热与传质基础"}
+- {author: "Budynas & Nisbett", title: "Shigley’s Mechanical Engineering Design", zh: "Shigley机械工程设计"}
+- {author: "Inman", title: "Engineering Vibration", zh: "工程振动"}
+- {author: "Groover", title: "Fundamentals of Modern Manufacturing", zh: "现代制造基础"}
+- {author: "Bolton", title: "Mechatronics", zh: "机电一体化"}
+- {author: "Craig", title: "Introduction to Robotics", zh: "机器人学导论"}
+- {author: "Logan", title: "A First Course in the Finite Element Method", zh: "有限元方法入门"}
+- {author: "Alexander & Sadiku", title: "Fundamentals of Electric Circuits", zh: "电路基础"}
+- {author: "Sedra & Smith", title: "Microelectronic Circuits", zh: "微电子电路"}
+- {author: "Wakerly", title: "Digital Design", zh: "数字设计"}
+- {author: "Oppenheim, Willsky & Nawab", title: "Signals and Systems", zh: "信号与系统"}
+- {author: "Oppenheim & Schafer", title: "Discrete-Time Signal Processing", zh: "离散时间信号处理"}
+- {author: "Proakis & Salehi", title: "Digital Communications", zh: "数字通信"}
+- {author: "Ogata", title: "Modern Control Engineering", zh: "现代控制工程"}
+- {author: "Åström & Murray", title: "Feedback Systems", zh: "反馈系统"}
+- {author: "Grainger & Stevenson", title: "Power System Analysis", zh: "电力系统分析"}
+- {author: "Mohan, Undeland & Robbins", title: "Power Electronics", zh: "电力电子学"}
+- {author: "Pozar", title: "Microwave Engineering", zh: "微波工程"}
+- {author: "Sze & Ng", title: "Physics of Semiconductor Devices", zh: "半导体器件物理"}
+- {author: "Hibbeler", title: "Structural Analysis", zh: "结构分析"}
+- {author: "Nilson, Darwin & Dolan", title: "Design of Concrete Structures", zh: "混凝土结构设计"}
+- {author: "McCormac & Csernak", title: "Structural Steel Design", zh: "钢结构设计"}
+- {author: "Das", title: "Principles of Geotechnical Engineering", zh: "岩土工程原理"}
+- {author: "Garber & Hoel", title: "Traffic and Highway Engineering", zh: "交通与公路工程"}
+- {author: "Mays", title: "Water Resources Engineering", zh: "水资源工程"}
+- {author: "Gould & Joyce", title: "Construction Project Management", zh: "施工项目管理"}
+- {author: "Ching", title: "Building Construction Illustrated", zh: "图解建筑构造"}
+- {author: "Felder, Rousseau & Bullard", title: "Elementary Principles of Chemical Processes", zh: "化工过程基本原理"}
+- {author: "Bird, Stewart & Lightfoot", title: "Transport Phenomena", zh: "传递现象"}
+- {author: "Fogler", title: "Elements of Chemical Reaction Engineering", zh: "化学反应工程基础"}
+- {author: "Seader, Henley & Roper", title: "Separation Process Principles", zh: "分离过程原理"}
+- {author: "Seborg et al.", title: "Process Dynamics and Control", zh: "过程动力学与控制"}
+- {author: "Towler & Sinnott", title: "Chemical Engineering Design", zh: "化工设计"}
+- {author: "Doran", title: "Bioprocess Engineering Principles", zh: "生物过程工程原理"}
+- {author: "Anderson", title: "Fundamentals of Aerodynamics", zh: "空气动力学基础"}
+- {author: "Nelson", title: "Flight Stability and Automatic Control", zh: "飞行稳定性与自动控制"}
+- {author: "Mattingly", title: "Elements of Propulsion", zh: "推进原理"}
+- {author: "Fortescue, Swinerd & Stark", title: "Spacecraft Systems Engineering", zh: "航天器系统工程"}
+- {author: "Curtis", title: "Orbital Mechanics for Engineering Students", zh: "工程学生的轨道力学"}
+- {author: "Megson", title: "Aircraft Structures for Engineering Students", zh: "航空结构学"}
+- {author: "Tupper", title: "Introduction to Naval Architecture", zh: "船舶设计导论"}
+- {author: "Molland, Turnock & Hudson", title: "Ship Resistance and Propulsion", zh: "船舶阻力与推进"}
+- {author: "Bosch", title: "Automotive Handbook", zh: "博世汽车手册"}
+- {author: "Hartman & Mutmansky", title: "Introductory Mining Engineering", zh: "采矿工程导论"}
+- {author: "Bourgoyne et al.", title: "Applied Drilling Engineering", zh: "应用钻井工程"}
+- {author: "Dake", title: "Fundamentals of Reservoir Engineering", zh: "油藏工程基础"}
+- {author: "Lamarsh & Baratta", title: "Introduction to Nuclear Engineering", zh: "核工程导论"}
+- {author: "Twidell & Weir", title: "Renewable Energy Resources", zh: "可再生能源"}
+- {author: "Davis & Cornwell", title: "Introduction to Environmental Engineering", zh: "环境工程导论"}
+- {author: "Metcalf & Eddy", title: "Wastewater Engineering", zh: "废水工程"}
+- {author: "Cooper & Alley", title: "Air Pollution Control", zh: "空气污染控制"}
+- {author: "Enderle & Bronzino", title: "Introduction to Biomedical Engineering", zh: "生物医学工程导论"}
+- {author: "Webster", title: "Medical Instrumentation", zh: "医学仪器"}
+- {author: "Fung", title: "Biomechanics", zh: "生物力学"}
+- {author: "Wickens et al.", title: "An Introduction to Human Factors Engineering", zh: "人因工程导论"}
+- {author: "Brauer", title: "Safety and Health for Engineers", zh: "工程师安全与健康"}
+- {author: "Drysdale", title: "An Introduction to Fire Dynamics", zh: "火灾动力学导论"}
+- {author: "Drake, Vogl & Mitchell", title: "Gray’s Anatomy for Students", zh: "Gray解剖学（学生版）"}
+- {author: "Moore et al.", title: "Clinically Oriented Anatomy", zh: "临床解剖学"}
+- {author: "Mescher", title: "Junqueira’s Basic Histology", zh: "Junqueira基础组织学"}
+- {author: "Hall", title: "Guyton and Hall Textbook of Medical Physiology", zh: "Guyton与Hall医学生理学"}
+- {author: "Rodwell et al.", title: "Harper’s Illustrated Biochemistry", zh: "Harper图解生物化学"}
+- {author: "Kumar, Abbas & Aster", title: "Robbins & Cotran Pathologic Basis of Disease", zh: "Robbins与Cotran疾病病理学基础"}
+- {author: "Katzung", title: "Basic & Clinical Pharmacology", zh: "基础与临床药理学"}
+- {author: "Murray et al.", title: "Medical Microbiology", zh: "医学微生物学"}
+- {author: "Abbas, Lichtman & Pillai", title: "Cellular and Molecular Immunology", zh: "细胞与分子免疫学"}
+- {author: "Nussbaum et al.", title: "Thompson & Thompson Genetics in Medicine", zh: "Thompson医学遗传学"}
+- {author: "McGee", title: "Evidence-Based Physical Diagnosis", zh: "循证体格诊断"}
+- {author: "Jameson et al.", title: "Harrison’s Principles of Internal Medicine", zh: "Harrison内科学"}
+- {author: "Townsend et al.", title: "Sabiston Textbook of Surgery", zh: "Sabiston外科学"}
+- {author: "Kliegman et al.", title: "Nelson Textbook of Pediatrics", zh: "Nelson儿科学"}
+- {author: "Cunningham et al.", title: "Williams Obstetrics", zh: "Williams产科学"}
+- {author: "Sadock et al.", title: "Kaplan & Sadock’s Synopsis of Psychiatry", zh: "Kaplan与Sadock精神医学概要"}
+- {author: "Ropper et al.", title: "Adams and Victor’s Principles of Neurology", zh: "Adams与Victor神经病学原理"}
+- {author: "Kang et al.", title: "Fitzpatrick’s Dermatology", zh: "Fitzpatrick皮肤病学"}
+- {author: "Kanski & Bowling", title: "Clinical Ophthalmology", zh: "临床眼科学"}
+- {author: "Flint et al.", title: "Cummings Otolaryngology", zh: "Cummings耳鼻咽喉头颈外科学"}
+- {author: "Azar et al.", title: "Campbell’s Operative Orthopaedics", zh: "Campbell骨科手术学"}
+- {author: "Gropper et al.", title: "Miller’s Anesthesia", zh: "Miller麻醉学"}
+- {author: "Tintinalli et al.", title: "Tintinalli’s Emergency Medicine", zh: "Tintinalli急诊医学"}
+- {author: "Adam et al.", title: "Grainger & Allison’s Diagnostic Radiology", zh: "Grainger与Allison诊断放射学"}
+- {author: "Rakel & Rakel", title: "Textbook of Family Medicine", zh: "家庭医学教科书"}
+- {author: "Libby et al.", title: "Braunwald’s Heart Disease", zh: "Braunwald心脏病学"}
+- {author: "Broaddus et al.", title: "Murray & Nadel’s Textbook of Respiratory Medicine", zh: "Murray与Nadel呼吸医学"}
+- {author: "Feldman et al.", title: "Sleisenger and Fordtran’s Gastrointestinal and Liver Disease", zh: "Sleisenger与Fordtran胃肠与肝脏病学"}
+- {author: "Yu et al.", title: "Brenner & Rector’s The Kidney", zh: "Brenner与Rector肾脏病学"}
+- {author: "Melmed et al.", title: "Williams Textbook of Endocrinology", zh: "Williams内分泌学"}
+- {author: "Greer et al.", title: "Wintrobe’s Clinical Hematology", zh: "Wintrobe临床血液学"}
+- {author: "DeVita et al.", title: "Cancer: Principles & Practice of Oncology", zh: "癌症：肿瘤学原理与实践"}
+- {author: "Bennett et al.", title: "Mandell, Douglas, and Bennett’s Principles and Practice of Infectious Diseases", zh: "Mandell, Douglas与Bennett感染病学原理与实践"}
+- {author: "Firestein et al.", title: "Kelley and Firestein’s Textbook of Rheumatology", zh: "Kelley与Firestein风湿病学"}
+- {author: "Halter et al.", title: "Hazzard’s Geriatric Medicine and Gerontology", zh: "Hazzard老年医学与老年病学"}
+- {author: "McMahon et al.", title: "Wall & Melzack’s Textbook of Pain", zh: "Wall与Melzack疼痛学"}
+- {author: "Vincent et al.", title: "Textbook of Critical Care", zh: "重症医学教科书"}
+- {author: "Nelson", title: "Wheeler’s Dental Anatomy", zh: "Wheeler牙体解剖学"}
+- {author: "Neville et al.", title: "Oral and Maxillofacial Pathology", zh: "口腔颌面病理学"}
+- {author: "Aulton & Taylor", title: "Aulton’s Pharmaceutics", zh: "Aulton药剂学"}
+- {author: "Adeboye et al.", title: "Remington: The Science and Practice of Pharmacy", zh: "雷明顿：药学的科学与实践"}
+- {author: "Potter et al.", title: "Fundamentals of Nursing", zh: "护理学基础"}
+- {author: "Marshall & Raynor", title: "Myles Textbook for Midwives", zh: "Myles助产学教科书"}
+- {author: "Cifu", title: "Braddom’s Physical Medicine and Rehabilitation", zh: "Braddom物理医学与康复"}
+- {author: "O’Sullivan et al.", title: "Physical Rehabilitation", zh: "物理康复"}
+- {author: "Willard & Spackman", title: "Occupational Therapy", zh: "作业治疗"}
+- {author: "Ross et al.", title: "Modern Nutrition in Health and Disease", zh: "现代健康与疾病营养学"}
+- {author: "Gordis", title: "Epidemiology", zh: "流行病学"}
+- {author: "Rothman, Greenland & Lash", title: "Modern Epidemiology", zh: "现代流行病学"}
+- {author: "Detels et al.", title: "Oxford Textbook of Global Public Health", zh: "牛津全球公共卫生教科书"}
+- {author: "Frumkin", title: "Environmental Health", zh: "环境健康"}
+- {author: "LaDou & Harrison", title: "Current Occupational & Environmental Medicine", zh: "当代职业与环境医学"}
+- {author: "Shi & Singh", title: "Essentials of the U.S. Health Care System", zh: "美国医疗体系精要"}
+- {author: "Folland, Goodman & Stano", title: "The Economics of Health and Health Care", zh: "卫生与医疗保健经济学"}
+- {author: "Straus et al.", title: "Evidence-Based Medicine", zh: "循证医学"}
+- {author: "Beauchamp & Childress", title: "Principles of Biomedical Ethics", zh: "生命医学伦理原则"}
+- {author: "Cherny et al.", title: "Oxford Textbook of Palliative Medicine", zh: "牛津姑息医学教科书"}
+- {author: "Gleitman et al.", title: "Psychology", zh: "心理学"}
+- {author: "Goldstein", title: "Cognitive Psychology", zh: "认知心理学"}
+- {author: "Berk", title: "Development Through the Lifespan", zh: "毕生发展心理学"}
+- {author: "Aronson, Wilson & Sommers", title: "Social Psychology", zh: "社会心理学"}
+- {author: "Larsen & Buss", title: "Personality Psychology", zh: "人格心理学"}
+- {author: "Barlow, Durand & Hofmann", title: "Abnormal Psychology", zh: "异常心理学"}
+- {author: "Trull & Prinstein", title: "Clinical Psychology", zh: "临床心理学"}
+- {author: "Corey", title: "Theory and Practice of Counseling and Psychotherapy", zh: "心理咨询与治疗的理论与实践"}
+- {author: "Bear, Connors & Paradiso", title: "Neuroscience: Exploring the Brain", zh: "神经科学：探索脑"}
+- {author: "Landy & Conte", title: "Work in the 21st Century", zh: "21世纪的工作"}
+- {author: "Taylor", title: "Health Psychology", zh: "健康心理学"}
+- {author: "Acquaah", title: "Principles of Crop Production", zh: "作物生产原理"}
+- {author: "Havlin et al.", title: "Soil Fertility and Fertilizers", zh: "土壤肥力与肥料"}
+- {author: "Acquaah", title: "Principles of Plant Genetics and Breeding", zh: "植物遗传与育种原理"}
+- {author: "Agrios", title: "Plant Pathology", zh: "植物病理学"}
+- {author: "Gullan & Cranston", title: "The Insects", zh: "昆虫学"}
+- {author: "Zimdahl", title: "Fundamentals of Weed Science", zh: "杂草科学基础"}
+- {author: "Hartmann et al.", title: "Plant Propagation", zh: "植物繁殖"}
+- {author: "Allen et al.", title: "Crop Evapotranspiration", zh: "作物蒸散量"}
+- {author: "Penson et al.", title: "Introduction to Agricultural Economics", zh: "农业经济学导论"}
+- {author: "Damron", title: "Introduction to Animal Science", zh: "动物科学导论"}
+- {author: "McDonald et al.", title: "Animal Nutrition", zh: "动物营养学"}
+- {author: "Bourdon", title: "Understanding Animal Breeding", zh: "理解动物育种"}
+- {author: "Dyce, Sack & Wensing", title: "Textbook of Veterinary Anatomy", zh: "兽医解剖学教科书"}
+- {author: "Klein", title: "Cunningham’s Textbook of Veterinary Physiology", zh: "Cunningham兽医生理学教科书"}
+- {author: "Zachary", title: "Pathologic Basis of Veterinary Disease", zh: "兽医疾病的病理学基础"}
+- {author: "Constable et al.", title: "Veterinary Medicine", zh: "兽医学"}
+- {author: "Fossum", title: "Small Animal Surgery", zh: "小动物外科学"}
+- {author: "Thrusfield", title: "Veterinary Epidemiology", zh: "兽医流行病学"}
+- {author: "Kimmins", title: "Forest Ecology", zh: "森林生态学"}
+- {author: "Smith et al.", title: "The Practice of Silviculture", zh: "造林学实践"}
+- {author: "Davis et al.", title: "Forest Management", zh: "森林经营"}
+- {author: "King", title: "Fisheries Biology, Assessment and Management", zh: "渔业生物学、评估与管理"}
+- {author: "Lucas & Southgate", title: "Aquaculture", zh: "水产养殖"}
+- {author: "Krausman & Cain", title: "Wildlife Management and Conservation", zh: "野生动物管理与保护"}
+- {author: "Owen & Chiras", title: "Natural Resource Conservation", zh: "自然资源保护"}
+- {author: "Potter & Hotchkiss", title: "Food Science", zh: "食品科学"}
+- {author: "Doyle, Diez-Gonzalez & Hill", title: "Food Microbiology", zh: "食品微生物学"}
+- {author: "Singh & Heldman", title: "Introduction to Food Engineering", zh: "食品工程导论"}
+- {author: "Fellows", title: "Food Processing Technology", zh: "食品加工技术"}
+- {author: "Motarjemi & Lelieveld", title: "Food Safety Management", zh: "食品安全管理"}
+- {author: "Lawless & Heymann", title: "Sensory Evaluation of Food", zh: "食品感官评价"}
+- {author: "Walstra et al.", title: "Dairy Science and Technology", zh: "乳品科学与技术"}
+- {author: "Mankiw", title: "Principles of Economics", zh: "经济学原理"}
+- {author: "Varian", title: "Intermediate Microeconomics", zh: "中级微观经济学"}
+- {author: "Mas-Colell, Whinston & Green", title: "Microeconomic Theory", zh: "微观经济理论"}
+- {author: "Blanchard", title: "Macroeconomics", zh: "宏观经济学"}
+- {author: "Romer", title: "Advanced Macroeconomics", zh: "高级宏观经济学"}
+- {author: "Wooldridge", title: "Introductory Econometrics", zh: "计量经济学导论"}
+- {author: "Angrist & Pischke", title: "Mostly Harmless Econometrics", zh: "基本无害的计量经济学"}
+- {author: "Todaro & Smith", title: "Economic Development", zh: "经济发展"}
+- {author: "Krugman, Obstfeld & Melitz", title: "International Economics", zh: "国际经济学"}
+- {author: "Borjas", title: "Labor Economics", zh: "劳动经济学"}
+- {author: "Gruber", title: "Public Finance and Public Policy", zh: "财政学与公共政策"}
+- {author: "Tirole", title: "The Theory of Industrial Organization", zh: "产业组织理论"}
+- {author: "Mishkin", title: "The Economics of Money, Banking, and Financial Markets", zh: "货币、银行与金融市场经济学"}
+- {author: "Angner", title: "A Course in Behavioral Economics", zh: "行为经济学教程"}
+- {author: "Allen", title: "Global Economic History", zh: "全球经济史"}
+- {author: "Giddens et al.", title: "Introduction to Sociology", zh: "社会学导论"}
+- {author: "Ritzer & Stepnisky", title: "Sociological Theory", zh: "社会学理论"}
+- {author: "Babbie", title: "The Practice of Social Research", zh: "社会研究方法"}
+- {author: "Grusky", title: "Social Stratification", zh: "社会分层"}
+- {author: "Preston, Heuveline & Guillot", title: "Demography", zh: "人口学"}
+- {author: "Gottdiener & Hutchison", title: "The New Urban Sociology", zh: "新城市社会学"}
+- {author: "Spillman", title: "Cultural Sociology", zh: "文化社会学"}
+- {author: "Wharton", title: "The Sociology of Gender", zh: "性别社会学"}
+- {author: "Cherlin", title: "Public and Private Families", zh: "公共与私人家庭"}
+- {author: "Wasserman & Faust", title: "Social Network Analysis", zh: "社会网络分析"}
+- {author: "Heywood", title: "Politics", zh: "政治学"}
+- {author: "Clark, Golder & Golder", title: "Principles of Comparative Politics", zh: "比较政治学原理"}
+- {author: "Baylis, Smith & Owens", title: "The Globalization of World Politics", zh: "世界政治的全球化"}
+- {author: "Kymlicka", title: "Contemporary Political Philosophy", zh: "当代政治哲学"}
+- {author: "Kellstedt & Whitten", title: "The Fundamentals of Political Science Research", zh: "政治学研究基础"}
+- {author: "Dunn", title: "Public Policy Analysis", zh: "公共政策分析"}
+- {author: "Denhardt et al.", title: "Public Administration", zh: "公共行政"}
+- {author: "Berridge", title: "Diplomacy", zh: "外交学"}
+- {author: "Flint", title: "Introduction to Geopolitics", zh: "地缘政治学导论"}
+- {author: "Ramsbotham et al.", title: "Contemporary Conflict Resolution", zh: "当代冲突解决"}
+- {author: "Kottak", title: "Anthropology", zh: "人类学"}
+- {author: "Eriksen", title: "Small Places, Large Issues", zh: "小地方，大问题"}
+- {author: "Stanford, Allen & Antón", title: "Biological Anthropology", zh: "生物人类学"}
+- {author: "Duranti", title: "Linguistic Anthropology", zh: "语言人类学"}
+- {author: "Renfrew & Bahn", title: "Archaeology", zh: "考古学"}
+- {author: "Hammersley & Atkinson", title: "Ethnography", zh: "民族志"}
+- {author: "Singer & Baer", title: "Introducing Medical Anthropology", zh: "医学人类学导论"}
+- {author: "Hann & Hart", title: "Economic Anthropology", zh: "经济人类学"}
+- {author: "Knox & Marston", title: "Human Geography", zh: "人文地理学"}
+- {author: "Coe, Kelly & Yeung", title: "Economic Geography", zh: "经济地理学"}
+- {author: "Pacione", title: "Urban Geography", zh: "城市地理学"}
+- {author: "Newbold", title: "Population Geography", zh: "人口地理学"}
+- {author: "Painter & Jeffrey", title: "Political Geography", zh: "政治地理学"}
+- {author: "Potter et al.", title: "Geographies of Development", zh: "发展地理学"}
+- {author: "Ward", title: "Researching the City", zh: "研究城市"}
+- {author: "McQuail & Deuze", title: "McQuail’s Media and Mass Communication Theory", zh: "McQuail大众传媒理论"}
+- {author: "Griffin, Ledbetter & Sparks", title: "A First Look at Communication Theory", zh: "传播理论初探"}
+- {author: "Kovach & Rosenstiel", title: "The Elements of Journalism", zh: "新闻的要素"}
+- {author: "Campbell, Martin & Fabos", title: "Media & Culture", zh: "媒介与文化"}
+- {author: "McNair", title: "An Introduction to Political Communication", zh: "政治传播导论"}
+- {author: "Lupton", title: "Digital Sociology", zh: "数字社会学"}
+- {author: "Bucchi & Trench", title: "Routledge Handbook of Public Communication of Science and Technology", zh: "Routledge科技公共传播手册"}
+- {author: "Hart", title: "The Concept of Law", zh: "法律的概念"}
+- {author: "Dworkin", title: "Law’s Empire", zh: "法律帝国"}
+- {author: "Glenn", title: "Legal Traditions of the World", zh: "世界法律传统"}
+- {author: "Chemerinsky", title: "Constitutional Law", zh: "宪法学"}
+- {author: "Breyer et al.", title: "Administrative Law and Regulatory Policy", zh: "行政法与监管政策"}
+- {author: "LaFave", title: "Principles of Criminal Law", zh: "刑法原理"}
+- {author: "Crawford", title: "Brownlie’s Principles of Public International Law", zh: "Brownlie国际公法原理"}
+- {author: "Moeckli et al.", title: "International Human Rights Law", zh: "国际人权法"}
+- {author: "Birnie, Boyle & Redgwell", title: "International Law and the Environment", zh: "国际法与环境"}
+- {author: "Farnsworth", title: "Contracts", zh: "合同法"}
+- {author: "Prosser, Wade & Schwartz", title: "Torts", zh: "侵权法"}
+- {author: "Dukeminier et al.", title: "Property", zh: "财产法"}
+- {author: "Davies & Worthington", title: "Gower’s Principles of Modern Company Law", zh: "Gower现代公司法原理"}
+- {author: "Goode", title: "Commercial Law", zh: "商法"}
+- {author: "Bently et al.", title: "Intellectual Property Law", zh: "知识产权法"}
+- {author: "Collins, Ewing & McColgan", title: "Labour Law", zh: "劳动法"}
+- {author: "Friedenthal et al.", title: "Civil Procedure", zh: "民事诉讼法"}
+- {author: "LaFave et al.", title: "Criminal Procedure", zh: "刑事诉讼法"}
+- {author: "Mueller & Kirkpatrick", title: "Evidence", zh: "证据法"}
+- {author: "Collins et al.", title: "Dicey, Morris & Collins on the Conflict of Laws", zh: "Dicey, Morris与Collins冲突法"}
+- {author: "Kieso, Weygandt & Warfield", title: "Intermediate Accounting", zh: "中级会计"}
+- {author: "Garrison, Noreen & Brewer", title: "Managerial Accounting", zh: "管理会计"}
+- {author: "Arens et al.", title: "Auditing and Assurance Services", zh: "审计与鉴证服务"}
+- {author: "Brealey, Myers & Allen", title: "Principles of Corporate Finance", zh: "公司理财"}
+- {author: "Bodie, Kane & Marcus", title: "Investments", zh: "投资学"}
+- {author: "Mishkin & Eakins", title: "Financial Markets and Institutions", zh: "金融市场与机构"}
+- {author: "Hull", title: "Risk Management and Financial Institutions", zh: "风险管理与金融机构"}
+- {author: "Dickson, Hardy & Waters", title: "Actuarial Mathematics for Life Contingent Risks", zh: "生命或有风险的精算数学"}
+- {author: "Robbins & Coulter", title: "Management", zh: "管理学"}
+- {author: "Grant", title: "Contemporary Strategy Analysis", zh: "当代战略分析"}
+- {author: "Kotler & Keller", title: "Marketing Management", zh: "营销管理"}
+- {author: "Robbins & Judge", title: "Organizational Behavior", zh: "组织行为学"}
+- {author: "Dessler", title: "Human Resource Management", zh: "人力资源管理"}
+- {author: "Heizer, Render & Munson", title: "Operations Management", zh: "运营管理"}
+- {author: "Chopra", title: "Supply Chain Management", zh: "供应链管理"}
+- {author: "Project Management Institute", title: "PMBOK Guide", zh: "项目管理知识体系指南"}
+- {author: "Barringer & Ireland", title: "Entrepreneurship", zh: "创业学"}
+- {author: "Laudon & Laudon", title: "Management Information Systems", zh: "管理信息系统"}
+- {author: "Crane et al.", title: "Business Ethics", zh: "商业伦理"}
+- {author: "Siegel", title: "Criminology", zh: "犯罪学"}
+- {author: "Schmalleger", title: "Criminal Justice Today", zh: "今日刑事司法"}
+- {author: "Walker & Katz", title: "The Police in America", zh: "美国警务"}
+- {author: "Clear et al.", title: "American Corrections", zh: "美国矫正"}
+- {author: "Haddow, Bullock & Coppola", title: "Introduction to Emergency Management", zh: "应急管理导论"}
+- {author: "Baylis, Wirtz & Gray", title: "Strategy in the Contemporary World", zh: "当代世界的战略"}
+- {author: "Lowenthal", title: "Intelligence: From Secrets to Policy", zh: "情报：从机密到政策"}
+- {author: "Clausewitz", title: "On War", zh: "战争论"}
+- {author: "Freedman", title: "Strategy: A History", zh: "战略：一部历史"}
+- {author: "Blackburn", title: "Think", zh: "思考"}
+- {author: "Lowe", title: "A Survey of Metaphysics", zh: "形而上学概览"}
+- {author: "Shafer-Landau", title: "The Fundamentals of Ethics", zh: "伦理学基础"}
+- {author: "Kim", title: "Philosophy of Mind", zh: "心灵哲学"}
+- {author: "Lycan", title: "Philosophy of Language", zh: "语言哲学"}
+- {author: "Levinson", title: "The Oxford Handbook of Aesthetics", zh: "牛津美学手册"}
+- {author: "Van Norden", title: "Introduction to Classical Chinese Philosophy", zh: "古典中国哲学导论"}
+- {author: "Hamilton", title: "Indian Philosophy", zh: "印度哲学"}
+- {author: "Moran", title: "Introduction to Phenomenology", zh: "现象学导论"}
+- {author: "Howell & Prevenier", title: "From Reliable Sources", zh: "来自可靠的史料"}
+- {author: "Bentley et al.", title: "Traditions & Encounters", zh: "传统与交流"}
+- {author: "Spielvogel", title: "Western Civilization", zh: "西方文明史"}
+- {author: "Rosenwein", title: "A Short History of the Middle Ages", zh: "中世纪简史"}
+- {author: "Bayly", title: "The Birth of the Modern World", zh: "现代世界的诞生"}
+- {author: "Ebrey", title: "The Cambridge Illustrated History of China", zh: "剑桥中国图史"}
+- {author: "Merriman", title: "A History of Modern Europe", zh: "现代欧洲史"}
+- {author: "Foner", title: "Give Me Liberty!", zh: "给我自由"}
+- {author: "Conrad", title: "What Is Global History?", zh: "什么是全球史"}
+- {author: "McClellan & Dorn", title: "Science and Technology in World History", zh: "世界史中的科学与技术"}
+- {author: "Ritchie", title: "Doing Oral History", zh: "做口述史"}
+- {author: "Fromkin, Rodman & Hyams", title: "An Introduction to Language", zh: "语言导论"}
+- {author: "Ladefoged & Johnson", title: "A Course in Phonetics", zh: "语音学教程"}
+- {author: "Hayes", title: "Introductory Phonology", zh: "音系学入门"}
+- {author: "Booij", title: "The Grammar of Words", zh: "词的语法"}
+- {author: "Carnie", title: "Syntax", zh: "句法学"}
+- {author: "Saeed", title: "Semantics", zh: "语义学"}
+- {author: "Huang", title: "Pragmatics", zh: "语用学"}
+- {author: "Wardhaugh & Fuller", title: "An Introduction to Sociolinguistics", zh: "社会语言学导论"}
+- {author: "Campbell", title: "Historical Linguistics", zh: "历史语言学"}
+- {author: "Harley", title: "The Psychology of Language", zh: "语言心理学"}
+- {author: "Lightbown & Spada", title: "How Languages are Learned", zh: "语言是如何习得的"}
+- {author: "Munday et al.", title: "Introducing Translation Studies", zh: "翻译研究入门"}
+- {author: "Atkins & Rundell", title: "The Oxford Guide to Practical Lexicography", zh: "牛津实用词典学指南"}
+- {author: "Eagleton", title: "Literary Theory", zh: "文学理论"}
+- {author: "Bassnett", title: "Comparative Literature", zh: "比较文学"}
+- {author: "Puchner et al.", title: "The Norton Anthology of World Literature", zh: "诺顿世界文学选读"}
+- {author: "Mair", title: "The Columbia History of Chinese Literature", zh: "哥伦比亚中国文学史"}
+- {author: "Greenblatt et al.", title: "The Norton Anthology of English Literature", zh: "诺顿英国文学选读"}
+- {author: "Baym et al.", title: "The Norton Anthology of American Literature", zh: "诺顿美国文学选读"}
+- {author: "Howatson", title: "The Oxford Companion to Classical Literature", zh: "牛津古典文学指南"}
+- {author: "Abbott", title: "The Cambridge Introduction to Narrative", zh: "叙事学导论"}
+- {author: "Eagleton", title: "How to Read a Poem", zh: "如何读一首诗"}
+- {author: "Hunt", title: "Understanding Children’s Literature", zh: "理解儿童文学"}
+- {author: "Greetham", title: "Textual Scholarship", zh: "文本学术"}
+- {author: "Pals", title: "Nine Theories of Religion", zh: "宗教的九种理论"}
+- {author: "Bowie", title: "The Anthropology of Religion", zh: "宗教人类学"}
+- {author: "McGrath", title: "Christian Theology", zh: "基督教神学"}
+- {author: "Collins", title: "Introduction to the Hebrew Bible", zh: "希伯来圣经导论"}
+- {author: "Esposito", title: "Islam: The Straight Path", zh: "伊斯兰教：正道"}
+- {author: "Gethin", title: "The Foundations of Buddhism", zh: "佛教的基础"}
+- {author: "Flood", title: "An Introduction to Hinduism", zh: "印度教导论"}
+- {author: "Nadeau", title: "The Wiley-Blackwell Companion to Chinese Religions", zh: "Wiley-Blackwell中国宗教指南"}
+- {author: "Pojman & Rea", title: "Philosophy of Religion", zh: "宗教哲学"}
+- {author: "Storey", title: "Cultural Theory and Popular Culture", zh: "文化理论与通俗文化"}
+- {author: "Chandler", title: "Semiotics: The Basics", zh: "符号学基础"}
+- {author: "Morwood", title: "The Oxford Grammar of Classical Greek", zh: "牛津古典希腊语语法"}
+- {author: "Grafton", title: "The Footnote", zh: "脚注"}
+- {author: "Ambrose & Paine", title: "Museum Basics", zh: "博物馆基础"}
+- {author: "Harrison", title: "Heritage: Critical Approaches", zh: "遗产：批判性进路"}
+- {author: "Said", title: "Orientalism", zh: "东方学"}
+- {author: "Gombrich", title: "The Story of Art", zh: "艺术的故事"}
+- {author: "Kleiner", title: "Gardner’s Art through the Ages", zh: "Gardner艺术通史"}
+- {author: "Edwards", title: "Drawing on the Right Side of the Brain", zh: "像艺术家一样思考"}
+- {author: "Mayer", title: "The Artist’s Handbook of Materials and Techniques", zh: "艺术家材料与技法手册"}
+- {author: "Lanteri", title: "Modelling and Sculpting the Human Figure", zh: "人体模特与雕塑"}
+- {author: "Ross, Romano & Ross", title: "The Complete Printmaker", zh: "版画家全解"}
+- {author: "Langford, Fox & Smith", title: "Langford’s Basic Photography", zh: "Langford基础摄影"}
+- {author: "Albers", title: "Interaction of Color", zh: "色彩互动"}
+- {author: "Stallabrass", title: "Contemporary Art", zh: "当代艺术"}
+- {author: "Kostka, Payne & Almén", title: "Tonal Harmony", zh: "调性和声"}
+- {author: "Piston", title: "Harmony", zh: "和声学"}
+- {author: "Fux", title: "The Study of Counterpoint", zh: "对位法研究"}
+- {author: "Caplin", title: "Classical Form", zh: "古典曲式"}
+- {author: "Adler", title: "The Study of Orchestration", zh: "配器法研究"}
+- {author: "Schoenberg", title: "Fundamentals of Musical Composition", zh: "作曲基本原理"}
+- {author: "Burkholder et al.", title: "A History of Western Music", zh: "西方音乐史"}
+- {author: "Nettl", title: "The Study of Ethnomusicology", zh: "民族音乐学研究"}
+- {author: "Deutsch", title: "The Psychology of Music", zh: "音乐心理学"}
+- {author: "Rumsey & McCormick", title: "Sound and Recording", zh: "声音与录音"}
+- {author: "Brockett & Hildy", title: "History of the Theatre", zh: "戏剧史"}
+- {author: "Stanislavski", title: "An Actor Prepares", zh: "演员自我修养"}
+- {author: "Hodge", title: "Play Directing", zh: "戏剧导演"}
+- {author: "Chemers", title: "Ghost Light", zh: "戏剧构作入门"}
+- {author: "Au", title: "Ballet and Modern Dance", zh: "芭蕾与现代舞"}
+- {author: "Blom & Chaplin", title: "The Intimate Act of Choreography", zh: "编舞的亲密行为"}
+- {author: "Bordwell, Thompson & Smith", title: "Film Art", zh: "电影艺术"}
+- {author: "Thompson & Bordwell", title: "Film History", zh: "电影史"}
+- {author: "Rabiger & Hurbis-Cherrier", title: "Directing: Film Techniques and Aesthetics", zh: "电影导演：技法与美学"}
+- {author: "Williams", title: "The Animator’s Survival Kit", zh: "动画师生存手册"}
+- {author: "Fullerton", title: "Game Design Workshop", zh: "游戏设计工坊"}
+- {author: "Salen & Zimmerman", title: "Rules of Play", zh: "游戏规则"}
+- {author: "Meggs & Purvis", title: "Meggs’ History of Graphic Design", zh: "Meggs平面设计史"}
+- {author: "Lupton & Phillips", title: "Graphic Design: The New Basics", zh: "平面设计：新基础"}
+- {author: "Bringhurst", title: "The Elements of Typographic Style", zh: "排版的风格要素"}
+- {author: "Norman", title: "The Design of Everyday Things", zh: "设计心理学"}
+- {author: "Ulrich, Eppinger & Yang", title: "Product Design and Development", zh: "产品设计与开发"}
+- {author: "Cooper et al.", title: "About Face", zh: "交互设计精髓"}
+- {author: "Goodman, Kuniavsky & Moed", title: "Observing the User Experience", zh: "观察用户体验"}
+- {author: "Stickdorn et al.", title: "This Is Service Design Doing", zh: "服务设计实践"}
+- {author: "Ching & Binggeli", title: "Interior Design Illustrated", zh: "图解室内设计"}
+- {author: "Armstrong", title: "Patternmaking for Fashion Design", zh: "服装制版与设计"}
+- {author: "Martin & Hanington", title: "Universal Methods of Design", zh: "通用设计方法"}
+- {author: "Ching", title: "Architecture: Form, Space, and Order", zh: "建筑：形式、空间和秩序"}
+- {author: "Fazio, Moffett & Wodehouse", title: "A World History of Architecture", zh: "世界建筑史"}
+- {author: "Allen & Iano", title: "Fundamentals of Building Construction", zh: "建筑构造基础"}
+- {author: "Lechner", title: "Heating, Cooling, Lighting", zh: "供暖、制冷与照明"}
+- {author: "Simonds & Starke", title: "Landscape Architecture", zh: "景观建筑学"}
+- {author: "Lynch", title: "The Image of the City", zh: "城市意象"}
+- {author: "Levy", title: "Contemporary Urban Planning", zh: "当代城市规划"}
+- {author: "Feilden", title: "Conservation of Historic Buildings", zh: "历史建筑保护"}
+- {author: "Chicago Manual of Style", title: "The Chicago Manual of Style", zh: "芝加哥格式手册"}
+- {author: "Belch & Belch", title: "Advertising and Promotion", zh: "广告与促销"}
+- {author: "Cutlip, Center & Broom", title: "Effective Public Relations", zh: "有效公共关系"}
+- {author: "Zettl", title: "Television Production Handbook", zh: "电视制作手册"}
+- {author: "Vaughan", title: "Multimedia: Making It Work", zh: "多媒体技术"}
+- {author: "Field", title: "Screenplay", zh: "银幕剧本"}
+- {author: "Ornstein et al.", title: "Foundations of Education", zh: "教育学基础"}
+- {author: "Tyler", title: "Basic Principles of Curriculum and Instruction", zh: "课程与教学的基本原理"}
+- {author: "Arends", title: "Learning to Teach", zh: "学会教学"}
+- {author: "Dick, Carey & Carey", title: "The Systematic Design of Instruction", zh: "教学系统化设计"}
+- {author: "Woolfolk", title: "Educational Psychology", zh: "教育心理学"}
+- {author: "Nitko & Brookhart", title: "Educational Assessment of Students", zh: "学生教育评估"}
+- {author: "Cohen, Manion & Morrison", title: "Research Methods in Education", zh: "教育研究方法"}
+- {author: "Bates", title: "Teaching in a Digital Age", zh: "数字时代的教学"}
+- {author: "Morrison", title: "Early Childhood Education Today", zh: "今日学前教育"}
+- {author: "Heward", title: "Exceptional Children", zh: "特殊儿童"}
+- {author: "Merriam & Bierema", title: "Adult Learning", zh: "成人学习"}
+- {author: "Lucas", title: "American Higher Education", zh: "美国高等教育"}
+- {author: "Miller & Gregson", title: "A Philosophic View for Seeing the Past of Vocational Education", zh: "审视职业教育过去的哲学视角"}
+- {author: "Phillips & Schweisfurth", title: "Comparative and International Education", zh: "比较与国际教育"}
+- {author: "Hoy & Miskel", title: "Educational Administration", zh: "教育行政"}
+- {author: "Brown & Lee", title: "Teaching by Principles", zh: "以原则为本的教学"}
+- {author: "Zastrow", title: "Introduction to Social Work and Social Welfare", zh: "社会工作与社会福利导论"}
+- {author: "Hepworth et al.", title: "Direct Social Work Practice", zh: "直接社会工作实务"}
+- {author: "Toseland & Rivas", title: "An Introduction to Group Work Practice", zh: "团体工作实务导论"}
+- {author: "Kirst-Ashman & Hull", title: "Generalist Practice with Organizations and Communities", zh: "通用社会工作实务：组织与社区"}
+- {author: "Alcock et al.", title: "The Student’s Companion to Social Policy", zh: "社会政策学生指南"}
+- {author: "Niles & Harris-Bowlsbey", title: "Career Development Interventions", zh: "生涯发展干预"}
+- {author: "Kenney, Wilmore & Costill", title: "Physiology of Sport and Exercise", zh: "运动与锻炼生理学"}
+- {author: "Bompa & Buzzichelli", title: "Periodization", zh: "周期化训练"}
+- {author: "McGinnis", title: "Biomechanics of Sport and Exercise", zh: "运动与锻炼生物力学"}
+- {author: "Masteralexis et al.", title: "Principles and Practice of Sport Management", zh: "体育管理原理与实践"}
+- {author: "Goeldner & Ritchie", title: "Tourism", zh: "旅游业"}
+- {author: "Walker", title: "Introduction to Hospitality", zh: "酒店业导论"}
+- {author: "Ninemeier", title: "Management of Food and Beverage Operations", zh: "餐饮运营管理"}
+- {author: "McGee", title: "On Food and Cooking", zh: "食物与烹饪"}
+- {author: "Oberg et al.", title: "Machinery’s Handbook", zh: "机械加工手册"}
+- {author: "American Welding Society", title: "Welding Handbook", zh: "焊接手册"}
+- {author: "NFPA", title: "National Electrical Code Handbook", zh: "美国国家电气规范手册"}
+- {author: "Wagner & Smith", title: "Modern Carpentry", zh: "现代木工"}
+- {author: "Erjavec & Thompson", title: "Automotive Technology", zh: "汽车技术"}
+- {author: "Whitman et al.", title: "Refrigeration and Air Conditioning Technology", zh: "制冷与空调技术"}
+- {author: "FAA", title: "Pilot’s Handbook of Aeronautical Knowledge", zh: "飞行员航空知识手册"}
+- {author: "Bowditch", title: "The American Practical Navigator", zh: "美国实用航海家"}
+- {author: "Milady", title: "Standard Cosmetology", zh: "标准美容学"}
+- {author: "Mayer", title: "Embalming: History, Theory, and Practice", zh: "遗体防腐：历史、理论与实践"}
+- {author: "Bowersox et al.", title: "Supply Chain Logistics Management", zh: "供应链物流管理"}
+- {author: "Button", title: "Transport Economics", zh: "运输经济学"}
+- {author: "Wensveen", title: "Air Transportation", zh: "航空运输"}
+- {author: "Branch", title: "Elements of Shipping", zh: "航运学要义"}
+- {author: "Goetsch", title: "Occupational Safety and Health", zh: "职业安全与健康"}
+- {author: "Klinoff", title: "Introduction to Fire Protection and Emergency Services", zh: "消防与应急服务导论"}
+- {author: "Fischer et al.", title: "Introduction to Security", zh: "安保导论"}
+- {author: "Bermúdez", title: "Cognitive Science", zh: "认知科学"}
+- {author: "Dayan & Abbott", title: "Theoretical Neuroscience", zh: "理论神经科学"}
+- {author: "Ingram", title: "Neurolinguistics", zh: "神经语言学"}
+- {author: "Coeckelbergh", title: "AI Ethics", zh: "人工智能伦理"}
+- {author: "Blackmore & Troscianko", title: "Consciousness", zh: "意识研究"}
+- {author: "Barabási", title: "Network Science", zh: "网络科学"}
+- {author: "Salganik", title: "Bit by Bit", zh: "数字社会研究法"}
+- {author: "Pentland", title: "Social Physics", zh: "社会物理学"}
+- {author: "Shoham & Leyton-Brown", title: "Multiagent Systems", zh: "多智能体系统"}
+- {author: "Sugimoto & Larivière", title: "Measuring Research", zh: "度量研究"}
+- {author: "Clark & Pazdernik", title: "Biotechnology", zh: "生物技术"}
+- {author: "Cameron, Bashor & Collins", title: "A Brief History of Synthetic Biology", zh: "合成生物学简史"}
+- {author: "Lanza, Langer & Vacanti", title: "Principles of Tissue Engineering", zh: "组织工程原理"}
+- {author: "Hornyak et al.", title: "Introduction to Nanoscience and Nanotechnology", zh: "纳米科学与纳米技术导论"}
+- {author: "Nielsen & Chuang", title: "Quantum Computation and Quantum Information", zh: "量子计算与量子信息"}
+- {author: "Saleh & Teich", title: "Fundamentals of Photonics", zh: "光子学基础"}
+- {author: "Robertson", title: "Sustainability Principles and Practice", zh: "可持续性原理与实践"}
+- {author: "MacKay", title: "Sustainable Energy — Without the Hot Air", zh: "可持续能源——没有热气"}
+- {author: "Graedel & Allenby", title: "Industrial Ecology", zh: "工业生态学"}
+- {author: "Stahel", title: "The Circular Economy", zh: "循环经济"}
+- {author: "Bettencourt", title: "Introduction to Urban Science", zh: "城市科学导论"}
+- {author: "Coppola", title: "Introduction to International Disaster Management", zh: "国际灾害管理导论"}
+- {author: "Kump, Kasting & Crane", title: "The Earth System", zh: "地球系统"}
+- {author: "Sismondo", title: "An Introduction to Science and Technology Studies", zh: "科学技术学导论"}
+- {author: "Schreibman, Siemens & Unsworth", title: "A Companion to Digital Humanities", zh: "数字人文指南"}
+- {author: "Baym", title: "Personal Connections in the Digital Age", zh: "数字时代的个人联系"}
+- {author: "Stoneman", title: "The Economics of Technological Diffusion", zh: "技术扩散经济学"}
+- {author: "Tidd & Bessant", title: "Managing Innovation", zh: "创新管理"}
+- {author: "Bell", title: "Foundations of Futures Studies", zh: "未来研究基础"}
+- {author: "Gray", title: "The Cyborg Handbook", zh: "赛博格手册"}
+- {author: "Klein", title: "Sources of Power: How People Make Decisions", zh: "力量的来源：人们如何做决策"}
+- {author: "Polanyi", title: "The Tacit Dimension", zh: "默会维度"}
+- {author: "Dalkir", title: "Knowledge Management in Theory and Practice", zh: "知识管理：理论与实践"}
+- {author: "Lave & Wenger", title: "Situated Learning: Legitimate Peripheral Participation", zh: "情境学习：合法的边缘性参与"}
+- {author: "Wenger", title: "Communities of Practice", zh: "实践社区"}
+- {author: "Ericsson & Pool", title: "Peak", zh: "峰值"}
+- {author: "Ericsson et al.", title: "The Cambridge Handbook of Expertise and Expert Performance", zh: "剑桥专长与专家表现手册"}
+- {author: "Stone & Heen", title: "Thanks for the Feedback", zh: "感谢反馈"}
+- {author: "Argyris", title: "On Organizational Learning", zh: "组织学习"}
+- {author: "Zinsser", title: "On Writing Well: The Classic Guide to Writing Nonfiction", zh: "写作法宝：非虚构写作指南"}
+- {author: "Williams & Bizup", title: "Style: Lessons in Clarity and Grace", zh: "风格：清晰与优雅的写作课"}
+- {author: "Lucas & Stob", title: "The Art of Public Speaking", zh: "演讲的艺术"}
+- {author: "Duarte", title: "Resonate: Present Visual Stories that Transform Audiences", zh: "共鸣：呈现打动观众的视觉故事"}
+- {author: "Heath & Heath", title: "Made to Stick", zh: "让创意更有黏性"}
+- {author: "Cialdini", title: "Influence", zh: "影响力"}
+- {author: "Allen", title: "Getting Things Done: The Art of Stress-Free Productivity", zh: "搞定：无压工作的艺术"}
+- {author: "Newport", title: "Deep Work: Rules for Focused Success in a Distracted World", zh: "深度工作"}
+- {author: "Pang", title: "Rest: Why You Get More Done When You Work Less", zh: "休息：为什么少工作反而做得更多"}
+- {author: "Loehr & Schwartz", title: "The Power of Full Engagement", zh: "全力以赴"}
+- {author: "Housel", title: "The Psychology of Money", zh: "金钱心理学"}
+- {author: "CFPB", title: "Your Money, Your Goals", zh: "你的钱，你的目标"}
+- {author: "Manning", title: "Credit Card Nation", zh: "信用卡国度"}
+- {author: "Loftsgordon & O'Neill", title: "Solve Your Money Troubles: Strategies to Get Out of Debt and Stay That Way", zh: "解决你的财务困境"}
+- {author: "Rejda & McNamara", title: "Principles of Risk Management and Insurance", zh: "风险管理与保险原理"}
+- {author: "OECD", title: "Pensions at a Glance", zh: "养老金概览"}
+- {author: "Burnham", title: "A Short & Happy Guide to Contracts", zh: "合同的简明快乐指南"}
+- {author: "Stim", title: "Contracts: The Essential Business Desk Reference", zh: "合同：商业必备参考"}
+- {author: "Konnikova", title: "The Confidence Game", zh: "信心游戏"}
+- {author: "Whitty & Buchanan", title: "The Psychology of the Online Dating Romance Scam", zh: "网络约会浪漫诈骗的心理学"}
+- {author: "Bogle", title: "The Little Book of Common Sense Investing", zh: "长赢投资"}
+- {author: "Malkiel", title: "A Random Walk Down Wall Street", zh: "漫步华尔街"}
+- {author: "Bernstein", title: "The Four Pillars of Investing", zh: "投资的四大支柱"}
+- {author: "Swensen", title: "Unconventional Success: A Fundamental Approach to Personal Investment", zh: "不寻常的成功：个人投资的基本方法"}
+- {author: "Montier", title: "Behavioural Investing: A Practitioner's Guide to Applying Behavioural Finance", zh: "行为投资：应用行为金融学的实践指南"}
+- {author: "Kahneman", title: "Thinking, Fast and Slow", zh: "思考，快与慢"}
+- {author: "Damodaran", title: "The Little Book of Valuation", zh: "估值小册子"}
+- {author: "Fridson & Alvarez", title: "Financial Statement Analysis: A Practitioner's Guide", zh: "财务报表分析：实践者指南"}
+- {author: "O'Connell", title: "Nolo's Essential Guide to Buying Your First Home", zh: "Nolo 购房必读指南"}
+- {author: "IRS", title: "Publication 17: Your Federal Income Tax", zh: "第 17 号出版物：联邦所得税指南"}
+- {author: "Fitzpatrick", title: "The Mom Test", zh: "妈妈测试"}
+- {author: "Blank & Dorf", title: "The Startup Owner's Manual", zh: "创业起步手册"}
+- {author: "Osterwalder & Pigneur", title: "Business Model Generation", zh: "商业模式新生代"}
+- {author: "Cagan", title: "Inspired: How to Create Tech Products Customers Love", zh: "启示录：打造用户喜爱的产品"}
+- {author: "Nagle et al.", title: "The Strategy and Tactics of Pricing", zh: "定价战略与战术"}
+- {author: "Berman et al.", title: "Financial Intelligence for Entrepreneurs", zh: "创业者的财务智慧"}
+- {author: "Feld & Mendelson", title: "Venture Deals: Be Smarter Than Your Lawyer and Venture Capitalist", zh: "风险投资交易"}
+- {author: "Aulet", title: "Disciplined Entrepreneurship: 24 Steps to a Successful Startup", zh: "创业的纪律：24 步成就成功创业"}
+- {author: "Sutton & Rao", title: "Scaling Up Excellence", zh: "卓越的扩张"}
+- {author: "Dunford", title: "Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It", zh: "显而易见：搞定产品定位"}
+- {author: "Ries & Trout", title: "Positioning: The Battle for Your Mind", zh: "定位"}
+- {author: "Weinberg & Mares", title: "Traction: How Any Startup Can Achieve Explosive Customer Growth", zh: "引力"}
+- {author: "Ellis & Brown", title: "Hacking Growth", zh: "增长黑客"}
+- {author: "Schwartz", title: "Breakthrough Advertising", zh: "突破性广告"}
+- {author: "Bly", title: "The Copywriter's Handbook", zh: "文案手册"}
+- {author: "Handley", title: "Everybody Writes: Your New and Improved Go-To Guide to Creating Ridiculously Good Content", zh: "人人都会写：写出好内容的全新指南"}
+- {author: "Fitzpatrick", title: "Write Useful Books", zh: "写出有用的书"}
+- {author: "Berger", title: "Contagious: Why Things Catch On", zh: "疯传"}
+- {author: "Bolles", title: "What Color Is Your Parachute?", zh: "你的降落伞是什么颜色"}
+- {author: "Rivera", title: "Pedigree: How Elite Students Get Elite Jobs", zh: "血统：精英学生如何获得精英工作"}
+- {author: "Malhotra", title: "Negotiating the Impossible", zh: "谈判不可能之事"}
+- {author: "Babcock & Laschever", title: "Ask for It", zh: "大胆去要"}
+- {author: "Rackham", title: "SPIN Selling", zh: "SPIN 销售"}
+- {author: "Ibarra", title: "Working Identity", zh: "工作身份"}
+- {author: "Burt", title: "Brokerage and Closure", zh: "中介与封闭"}
+- {author: "Bridges", title: "Transitions", zh: "转变"}
+- {author: "Freeman", title: "Strategic Management: A Stakeholder Approach", zh: "战略管理：利益相关者方法"}
+- {author: "Allison & Zelikow", title: "Essence of Decision", zh: "决策的本质"}
+- {author: "Pfeffer", title: "Power: Why Some People Have It—and Others Don't", zh: "权力：为什么只有少数人拥有"}
+- {author: "Crozier", title: "The Bureaucratic Phenomenon", zh: "官僚现象"}
+- {author: "Bourdieu", title: "Homo Academicus", zh: "学术人"}
+- {author: "Kanter", title: "Men and Women of the Corporation", zh: "公司的男人与女人"}
+- {author: "Scott", title: "Seeing Like a State", zh: "国家的视角"}
+- {author: "Muller", title: "The Tyranny of Metrics", zh: "指标的暴政"}
+- {author: "Miceli et al.", title: "Whistle-Blowing in Organizations", zh: "组织中的吹哨行为"}
+- {author: "Brown et al.", title: "International Handbook on Whistleblowing Research", zh: "国际吹哨研究手册"}
+- {author: "Gable", title: "The Hidden Curriculum", zh: "隐藏课程"}
+- {author: "Bourdieu", title: "Distinction", zh: "区分"}
+- {author: "Goffman", title: "The Presentation of Self in Everyday Life", zh: "日常生活中的自我呈现"}
+- {author: "Alim et al.", title: "Raciolinguistics", zh: "种族语言学"}
+- {author: "Granovetter", title: "Getting a Job", zh: "找工作"}
+- {author: "Khan", title: "Privilege", zh: "特权"}
+- {author: "Markovits", title: "The Meritocracy Trap", zh: "精英主义的陷阱"}
+- {author: "Jowett & O'Donnell", title: "Propaganda & Persuasion", zh: "宣传与说服"}
+- {author: "Ellul", title: "Propaganda", zh: "宣传"}
+- {author: "Milgram", title: "Obedience to Authority", zh: "对权威的服从"}
+- {author: "Hadnagy", title: "Social Engineering: The Science of Human Hacking", zh: "社会工程：人类黑客的科学"}
+- {author: "Lalich", title: "Bounded Choice", zh: "有限选择"}
+- {author: "Horgan", title: "The Psychology of Terrorism", zh: "恐怖主义心理学"}
+- {author: "Wood", title: "Good Habits, Bad Habits", zh: "好习惯，坏习惯"}
+- {author: "Gollwitzer & Bargh", title: "The Psychology of Action", zh: "行动的心理学"}
+- {author: "Gross", title: "Handbook of Emotion Regulation", zh: "情绪调节手册"}
+- {author: "Greenberger & Padesky", title: "Mind Over Mood", zh: "驾驭情绪"}
+- {author: "Maslach & Leiter", title: "The Truth About Burnout", zh: "倦怠的真相"}
+- {author: "Nagoski & Nagoski", title: "Burnout", zh: "倦怠"}
+- {author: "Miller & Rollnick", title: "Motivational Interviewing", zh: "动机式访谈"}
+- {author: "Szalavitz", title: "Unbroken Brain", zh: "未断裂的大脑"}
+- {author: "Groopman", title: "How Doctors Think", zh: "医生如何思考"}
+- {author: "Gigerenzer", title: "Risk Savvy", zh: "风险与好的决策"}
+- {author: "Carel", title: "Illness: The Cry of the Flesh", zh: "疾病：肉体的呼喊"}
+- {author: "Frank", title: "The Wounded Storyteller", zh: "受伤的讲述者"}
+- {author: "Mace & Rabins", title: "The 36-Hour Day", zh: "36 小时的一天"}
+- {author: "Kleinman", title: "The Soul of Care", zh: "照护的灵魂"}
+- {author: "Gawande", title: "Being Mortal", zh: "最好的告别"}
+- {author: "Worden", title: "Grief Counseling and Grief Therapy", zh: "哀伤辅导与哀伤治疗"}
+- {author: "Fisher, Ury & Patton", title: "Getting to Yes", zh: "谈判力"}
+- {author: "Lax & Sebenius", title: "3-D Negotiation", zh: "三维谈判"}
+- {author: "Stone, Patton & Heen", title: "Difficult Conversations", zh: "高难度谈话"}
+- {author: "Rosenberg", title: "Nonviolent Communication", zh: "非暴力沟通"}
+- {author: "Mayer", title: "The Dynamics of Conflict: A Guide to Engagement and Intervention", zh: "冲突动力学：介入与干预指南"}
+- {author: "Ury", title: "The Third Side", zh: "第三种力量"}
+- {author: "Archard", title: "Sexual Consent", zh: "性同意"}
+- {author: "Cloud & Townsend", title: "Boundaries", zh: "界线"}
+- {author: "Mikulincer & Shaver", title: "Attachment in Adulthood", zh: "成人依恋"}
+- {author: "Gottman & Silver", title: "The Seven Principles for Making Marriage Work", zh: "幸福的婚姻"}
+- {author: "Nagoski", title: "Come as You Are", zh: "性本就该如此"}
+- {author: "Lehmiller", title: "The Psychology of Human Sexuality", zh: "人类性心理学"}
+- {author: "Emery", title: "The Truth About Children and Divorce", zh: "孩子与离婚的真相"}
+- {author: "Lebow et al.", title: "Treating the Difficult Divorce", zh: "治疗困难的离婚"}
+- {author: "Bornstein", title: "Handbook of Parenting", zh: "育儿手册"}
+- {author: "Lareau", title: "Unequal Childhoods", zh: "不平等的童年"}
+- {author: "Mitnick", title: "The Art of Invisibility", zh: "隐身的艺术"}
+- {author: "CISA", title: "Secure Our World", zh: "守护我们的世界"}
+- {author: "American Red Cross", title: "First Aid/CPR/AED Participant's Manual", zh: "急救/CPR/AED 学员手册"}
+- {author: "FEMA", title: "Are You Ready? An In-Depth Guide to Citizen Preparedness", zh: "你准备好了吗？公民应急深度指南"}
+- {author: "Stark", title: "Coercive Control", zh: "强制控制"}
+- {author: "Logan et al.", title: "Partner Stalking: How Women Respond, Cope, and Survive", zh: "伴侣跟踪：女性如何应对、自处与幸存"}
+- {author: "Reader's Digest", title: "New Complete Do-It-Yourself Manual", zh: "新编完全自己动手手册"}
+- {author: "Black & Decker", title: "The Complete Photo Guide to Home Repair", zh: "家居维修完全图解指南"}
+- {author: "Arendt", title: "Eichmann in Jerusalem", zh: "艾希曼在耶路撒冷"}
+- {author: "Kidder", title: "Moral Courage", zh: "道德勇气"}
+- {author: "Bovens", title: "The Quest for Responsibility", zh: "责任的追寻"}
+- {author: "Bazerman & Tenbrunsel", title: "Blind Spots", zh: "盲点"}
+- {author: "Frankl", title: "Man's Search for Meaning", zh: "活出生命的意义"}
+- {author: "Yalom", title: "Staring at the Sun", zh: "直视骄阳"}
+- {author: "Ostrom", title: "Governing the Commons", zh: "公共事物的治理之道"}
+- {author: "Putnam", title: "Bowling Alone", zh: "独自打保龄"}
