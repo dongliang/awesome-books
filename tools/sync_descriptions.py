@@ -20,11 +20,13 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+SRC_DIR = ROOT.parent / "src"
+DATA_DIR = ROOT.parent / "data"
 JS_FILES = [
-    ROOT / "knowledge-tree-data.js",
-    ROOT / "knowledge-tree-practical-data.js",
+    SRC_DIR / "knowledge-tree-data.js",
+    SRC_DIR / "knowledge-tree-practical-data.js",
 ]
-JSON_FILE = ROOT / "book-descriptions.json"
+JSON_FILE = DATA_DIR / "book-descriptions.json"
 
 
 def make_key(author, title):
