@@ -313,10 +313,11 @@ function applyTheme(){
  const dark=effectiveDark();
  document.documentElement.setAttribute('data-theme',dark?'dark':'light');
  themeToggle.setAttribute('aria-pressed',String(dark));
- themeToggle.textContent=dark?'浅色模式':'深色模式';
+ themeToggle.textContent=dark?'深色模式':'浅色模式';
 }
 themeToggle.onclick=()=>{savedTheme=effectiveDark()?'light':'dark';try{localStorage.setItem('theme',savedTheme)}catch(e){}applyTheme()};
 if(window.matchMedia)window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{if(!savedTheme)applyTheme()});
+applyTheme();
 searchBox.oninput=filterTree;
 loadData();
 </script>
