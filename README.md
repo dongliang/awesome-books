@@ -1,8 +1,8 @@
-# 书单大全
+# Awesome Books
 
 一个方便了解国内外大学里都开展了哪些具体学科的书单。针对大学里不开展的学科，收录了对应的畅销书作为补充——没事的时候翻看一下，希望可以对提升认知起到一些意外的收获。
 
-**在线访问**：<https://dongliang.github.io/books/>
+**在线访问**：<https://dongliang.github.io/awesome-books/>
 
 ## 内容规模
 
