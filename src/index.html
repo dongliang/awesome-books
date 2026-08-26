@@ -50,16 +50,9 @@
   <div class="layout">
     <aside class="side"><h2>知识导航</h2><nav id="nav"></nav><div class="note">层级：门类 → 知识群 → 分支/主题 → 资料。点击节点展开；搜索和标签筛选会保留完整祖先路径。</div></aside>
     <section class="content">
-      <div class="intro">
-        <h2>如何读这张图</h2>
-        <p><b>分类骨架</b>显性学科综合 UNESCO ISCED-F、OECD FORD 与中国《研究生教育学科专业目录（2022年）》；实践部分按现实任务、风险与人生阶段组织。它不是招生专业清单，也不是图书排行榜。</p>
-        <p><b>资料口径</b>显性学科优先选择长期被大学课程采用的教材；隐性与实践知识也收录可靠的专业手册和严肃通俗著作。原因标签描述实践知识进入大学课程时面对的现实条件，不代表书籍质量评级。同一资料可能因适用于多个主题而重复出现；资料条目统计按清单中的出现位置计算。</p>
-        <p class="source-status" id="sourceStatus">正在检查数据源…</p>
-        <div class="data-warnings" id="dataWarnings" hidden></div>
-        <div class="legend"><span class="chip">一个主题通常列 1–2 本</span><span class="chip">不锁定版次，优先采用最新可靠版</span><span class="chip warn">医学、法律、财务与安全知识不能替代专业意见</span></div>
-        <div class="source-panel" id="sourcePanel" hidden><h3>收录来源（单选）</h3><p class="filter-help">选择当前希望浏览的内容范围，默认显示全部。</p><div class="source-filters" id="sourceFilters"></div></div>
-        <div class="tag-panel" id="tagPanel" hidden><h3>没有包含在大学课程的原因（可多选筛选）</h3><p class="filter-help">这些标签用于说明某些重要实践知识为什么可能没有被充分纳入大学课程。它们描述课程化所面对的现实条件，不评价知识或书籍质量，也不表示所有大学都不教授。</p><div class="tag-filters" id="tagFilters"></div></div>
-      </div>
+      <div class="data-warnings" id="dataWarnings" hidden></div>
+      <div class="source-panel" id="sourcePanel" hidden><h3>收录来源（单选）</h3><p class="filter-help">选择当前希望浏览的内容范围，默认显示全部。</p><div class="source-filters" id="sourceFilters"></div></div>
+      <div class="tag-panel" id="tagPanel" hidden><h3>没有包含在大学课程的原因（可多选筛选）</h3><p class="filter-help">这些标签用于说明某些重要实践知识为什么可能没有被充分纳入大学课程。它们描述课程化所面对的现实条件，不评价知识或书籍质量，也不表示所有大学都不教授。</p><div class="tag-filters" id="tagFilters"></div></div>
       <div id="tree"><div class="load-state">正在加载知识树数据…</div></div>
       <div class="footer">
         <p>学科分类骨架参考 UNESCO ISCED-F、OECD FORD 与教育部《研究生教育学科专业目录（2022年）》；实践部分按现实任务组织。</p>
@@ -236,7 +229,7 @@ function updateSourceStatus(activeSources){
  const status=[`已加载来源：${loaded}（${NORMALIZED_SOURCES.length}/2）`,`当前显示范围：${sourceModeLabels[ACTIVE_SOURCE_MODE]}`];
  if(SOURCE_DIAGNOSTICS.missing.length)status.push(`未找到：${SOURCE_DIAGNOSTICS.missing.join('、')}`);
  if(SOURCE_DIAGNOSTICS.invalid.length)status.push(`格式无效：${SOURCE_DIAGNOSTICS.invalid.join('、')}`);
- document.querySelector('#sourceStatus').textContent=status.join('；');
+ const statusEl=document.querySelector('#sourceStatus');if(statusEl)statusEl.textContent=status.join('；');
 }
 function rebuildFromSources(){
  DATA=[];TAG_DEFINITIONS=new Map();
