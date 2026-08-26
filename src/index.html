@@ -52,7 +52,7 @@
     <section class="content">
       <div class="data-warnings" id="dataWarnings" hidden></div>
       <div class="source-panel" id="sourcePanel" hidden><h3>收录来源（单选）</h3><p class="filter-help">选择当前希望浏览的内容范围，默认显示全部。</p><div class="source-filters" id="sourceFilters"></div></div>
-      <div class="tag-panel" id="tagPanel" hidden><h3>没有包含在大学课程的原因（可多选筛选）</h3><p class="filter-help">这些标签用于说明某些重要实践知识为什么可能没有被充分纳入大学课程。它们描述课程化所面对的现实条件，不评价知识或书籍质量，也不表示所有大学都不教授。</p><div class="tag-filters" id="tagFilters"></div></div>
+      <div class="tag-panel" id="tagPanel" hidden><h3>畅销书中的内容没有开展大学课程可能的原因(可多选筛选)</h3><div class="tag-filters" id="tagFilters"></div></div>
       <div id="tree"><div class="load-state">正在加载知识树数据…</div></div>
       <div class="footer">
         <p>学科分类骨架参考 UNESCO ISCED-F、OECD FORD 与教育部《研究生教育学科专业目录（2022年）》。</p>
@@ -203,7 +203,7 @@ function renderTagFilters(){
   button.setAttribute('aria-pressed',String(ACTIVE_TAGS.has(id)));filterTree();
  }));
 }
-const sourceModeLabels={all:'全部',academic:'大学学科',practical:'实践学科'};
+const sourceModeLabels={all:'全部',academic:'大学学科',practical:'畅销书'};
 const sourceOrder=['all','academic','practical'];
 function selectedSources(){
  if(ACTIVE_SOURCE_MODE==='all')return NORMALIZED_SOURCES;
